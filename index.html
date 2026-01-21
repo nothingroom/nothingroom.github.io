@@ -149,7 +149,7 @@
         .dot-row { display: flex; gap: 2px; }
         .dot { width: 2.5px; height: 2.5px; background: var(--text); border-radius: 50%; }
 
-        /* ================= NEW CUSTOM SELECTOR UI (FIXED) ================= */
+        /* ================= NEW CUSTOM SELECTOR UI ================= */
         .selector-list { display: flex; flex-direction: column; max-height: 60vh; overflow-y: auto; gap:8px; }
         .selector-item {
             padding: 20px; background: var(--card); border: 1px solid var(--border); 
@@ -237,7 +237,7 @@
         .sw-img-box img { width: 120%; height: 100%; object-fit: cover; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
         .guide-box { border: 1px solid var(--border); border-radius: 22px; margin-bottom: 15px; overflow: hidden; margin-top: 20px; background: var(--card); }
-        .guide-header { padding: 16px; display: flex; justify-content: Space-between; align-items: center; cursor: pointer; }
+        .guide-header { padding: 18px; display: flex; justify-content: Space-between; align-items: center; cursor: pointer; }
         .guide-content { max-height: 0; overflow: hidden; transition: 0.4s ease; padding: 0 18px; opacity: 0; }
         .guide-content.open { max-height: 500px; padding: 18px; opacity: 1; border-top: 1px solid var(--border); }
         .guide-content p { color: var(--text) !important; opacity: 0.8 !important; text-transform: none; font-size: 1.1rem; margin-bottom: 12px; }
@@ -774,7 +774,7 @@
         }
         function toggleAI() { const section = document.getElementById('aiSection'); section.style.display = (section.style.display === 'none') ? 'block' : 'none'; }
 
-        /* ================= CUSTOM SELECTOR LOGIC (NEW) ================= */
+        /* ================= CUSTOM SELECTOR LOGIC ================= */
         // 1. DEVICE MENU (Software)
         function openDeviceMenu() {
             const devices = [
@@ -862,7 +862,6 @@
                 const d = SERVICE_DB[s][key]; scInfo.innerHTML += `<div class="detail-card"><div style="display:flex;justify-content:Space-between;margin-bottom:10px;"><h3 style="font-size:1.4rem;">${d.n}</h3><span class="sc-badge">ID: ${d.c}</span></div><p style="text-transform:none;opacity:0.7;font-size:1rem;margin-bottom:15px;"><span style="font-size:1.2rem;">${d.a}</p><div style="font-size:0.9rem;margin-bottom:15px;"><p>🕒 TIME: ${d.t}</p><p>🚫 OFF : ${d.o}</p></div><div class="card-row"><button class="btn" style="flex:1;padding:12px;" onclick="window.open('tel:${d.p}')">CALL</button><button class="btn" style="flex:1;padding:12px;" onclick="window.open('${d.m}')">MAPS</button></div></div>`;
             });
         }
-        // SOFTWARE ADMIN LOGIC (With Hash)
         let sw_timer; function startSoftwareLogic() { sw_timer = setTimeout(() => { if(navigator.vibrate) navigator.vibrate(50); openSoftwareMenu(); }, 6500); }
         function cancelSoftwareLogic() { clearTimeout(sw_timer); }
         async function openSoftwareMenu() {
@@ -905,13 +904,12 @@
             try { const response = await fetch(song.url); const blob = await response.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `${song.title.replace(/[^a-zA-Z0-9\s]/g, '').trim()} - NothingSpace.mp3`; document.body.appendChild(a); a.click(); document.body.removeChild(a); window.URL.revokeObjectURL(url); btn.innerText = "DONE ✓"; } catch (e) { window.open(song.url, '_blank'); btn.innerText = "OPENED"; } setTimeout(() => { btn.innerText = "DOWNLOAD"; btn.style.pointerEvents = "all"; }, 2000);
         }
 
-        /* ================= CHAT MODULE (UPDATED) ================= */
+        /* ================= CHAT MODULE ================= */
         let userUUID = localStorage.getItem('ns_user_uuid');
         if (!userUUID) { userUUID = 'uid_' + Date.now().toString(36) + Math.random().toString(36).substr(2); localStorage.setItem('ns_user_uuid', userUUID); }
         let savedName = localStorage.getItem('ns_user_fixed') || "";
         let selectedImgBase64 = "";
 
-        // CHECK VERIFY STATUS (NEW)
         async function checkVerifyStatus() {
             try {
                 const res = await fetch("https://nothingcommunity-7664f-default-rtdb.firebaseio.com/verified_users.json");
@@ -919,8 +917,6 @@
                 if(v[userUUID] === true) document.getElementById('imgUploadBtn').style.display = 'block';
             } catch(e) {}
         }
-
-        // UPDATED: Handle File with Compression (Fix Slow Send)
         function handleFileSelect() {
             const fileInput = document.getElementById('imgInput');
             const file = fileInput.files[0];
@@ -936,7 +932,6 @@
                     return;
                 }
                 
-                // COMPRESSION LOGIC
                 const reader = new FileReader();
                 reader.onload = function(e) {
                     const img = new Image();
@@ -1017,7 +1012,6 @@
                 
                 if (action === "1") { const txt = prompt("REPLY:"); if(txt) await fetch(url, { method: 'PATCH', body: JSON.stringify({ reply: txt }) }); }
                 
-                // DELETE ALL MESSAGES LOGIC
                 else if (action === "2") { 
                     if(targetUUID && confirm("⚠️ DELETE ALL MESSAGES FROM THIS USER?")) {
                         const allMsgRes = await fetch(DB_URL);
@@ -1056,7 +1050,7 @@
         }
         async function downloadAIWall(btn) { runDownload(btn, document.getElementById('aiImg').src); }
 
-        // NEW: IMAGE VIEWER FUNCTIONS
+     
         function openImageViewer(src) {
             const viewer = document.getElementById('imgViewer');
             const img = document.getElementById('viewImg');
@@ -1087,31 +1081,26 @@
 </body>
 </html><style>/* 1. HOW TO UPDATE BOX (Gap Fix) */
 .guide-box {
-    margin-top: 0px;      /* Upar se gap kam kiya (Pehle 20px tha) */
-    margin-bottom: 12px;   /* Niche ka gap consistent kiya */
+    margin-top: 0px;  
+    margin-bottom: 12px;  
 }
-
-/* 2. DEVICE IMAGE BOX (Gap Fix) */
 .sw-display {
     margin: 12px 0;  
-    margin-top: 0px;        /* Upar-Niche dono taraf 10px gap */
+    margin-top: 0px;       
 }
-
-/* 3. DEVICE SELECTOR (Gap Fix for Notes) */
 .input-group {
-    margin-bottom: 12px;    /* Selector ke niche gap kam kiya (Taaki Notes chipak ke aaye) */
+    margin-bottom: 12px;   
 }
 
-/* 4. NOTES BOX (Gap Fix) */
 #logBox {
-    margin-top: 2px !important; /* Notes box ka upar ka gap hata diya */
+    margin-top: 2px !important;
 }
 
-/* 5. GENERAL CARD SPACING (Optional: Agar baaki cards me bhi gap jyada lage) */
+/* 5. GENERAL C
 .detail-card {
     margin-top: 10px;
-    padding: 20px;         /* Padding thoda adjust kiya clean look ke liye */
-}</style><script>// JS Code (No Change needed if logic is same, bas verify kar lo)
+    padding: 20px;       
+}</style><script>
 async function checkVerifyStatus() {
     try {
         const res = await fetch("https://nothingcommunity-7664f-default-rtdb.firebaseio.com/verified_users.json");
@@ -1122,4 +1111,15 @@ async function checkVerifyStatus() {
             document.getElementById('imgUploadBtn').style.display = 'block';
         }
     } catch(e) {}
-}</script>
+}</script><style>.modal > div {
+    flex-shrink: 0 !important;
+}
+.guide-content.open {
+    max-height: 800px !important;
+    opacity: 1;
+    padding: 18px;
+    border-top: 1px solid var(--border);
+}
+.guide-content {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease, padding 0.s ease;
+}</style>
