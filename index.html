@@ -53,17 +53,15 @@
     h1, h2, h3, span, button, select, input, p, textarea { font-family: 'VT323', monoSpace !important; text-transform: uppercase; }
 
     /* PERFORMANCE OPTIMIZATION */
-    .bento, footer, .screen { content-visibility: auto; contain-intrinsic-size: 1000px; }
+    .bento, footer { content-visibility: auto; contain-intrinsic-size: 1000px; }
     
     img { 
-        -webkit-touch-callout: none !important; -webkit-user-select: none !important; -khtml-user-select: none !important;
-        -moz-user-select: none !important; -ms-user-select: none !important; user-select: none !important;
-        -webkit-user-drag: none !important; pointer-events: auto !important;
+        -webkit-touch-callout: none !important; user-select: none !important; pointer-events: auto !important;
     }
 
     /* ================= BACKGROUND ANIMATIONS ================= */
     .stars-container { position: fixed; inset: 0; z-index: -1; background: var(--bg); overflow: hidden; pointer-events: none; }
-    .star { position: absolute; background: white; border-radius: 50%; opacity: 0; will-change: opacity; }
+    .star { position: absolute; background: var(--text); border-radius: 50%; opacity: 0; will-change: opacity; }
 
     .canvas { 
         position: fixed; inset: 0; background-image: radial-gradient(var(--dot-bg) 1.2px, transparent 1.2px); 
@@ -75,12 +73,11 @@
         top: 10%; left: 10%; 
         background: #d1d1d1; border-radius: 50%; z-index: -1; opacity: 0.5;
         box-shadow: inset -15px -15px 30px rgba(0,0,0,0.5), 0 0 20px rgba(255,255,255,0.2);
-        background-image: radial-gradient(circle at 30% 30%, #adadad 10%, transparent 15%), radial-gradient(circle at 60% 70%, #adadad 8%, transparent 12%);
     }
 
     /* ================= HEADER & BENTO ================= */
-    header { max-width: 1000px; margin: 30px auto 20px; padding: 0 20px; display: flex; flex-direction: column; gap: 20px; }
-    .header-top { width: 100%; display: flex; justify-content: Space-between; align-items: center; }
+    header { max-width: 1000px; margin: 30px auto 20px; padding: 0 20px; display: flex; flex-direction: column; gap: 20px; position: relative; z-index: 10; }
+    .header-top { width: 100%; display: flex; justify-content: space-between; align-items: center; }
     .logo h1 { font-size: 3.5rem; letter-spacing: -1px; line-height: 0.9; }
     .logo p { opacity: 0.8 !important; letter-spacing: 2px; }
 
@@ -89,7 +86,7 @@
     #t-icon { color: var(--text) !important;transition: transform .3s ease; } 
     .t-toggle:active #t-icon { transform: rotate(150deg) scale(1.1); }
 
-    .bento { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; max-width: 1000px; margin: 0 auto; padding: 20px; overflow: visible; }    
+    .bento { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; max-width: 1000px; margin: 0 auto; padding: 20px; overflow: visible; position: relative; z-index: 10; }      
     @media (min-width: 768px) { .bento { grid-template-columns: repeat(3, 1fr); } }
 
     .tile { 
@@ -129,7 +126,7 @@
     .input-group { position: relative; width: 100%; margin-bottom: 12px; display: flex; align-items: center; }
     select, input, textarea { width: 100%; padding: 20px; background: var(--card); border: 1px solid var(--border); color: var(--text); border-radius: 22px; font-size: 1.6rem; outline: none; appearance: none; }
     textarea { font-size: 1.2rem; resize: none; }
-    .arrow-wrapper { position: absolute; right: 25px; pointer-events: none; color: #ffffff; }
+    .arrow-wrapper { position: absolute; right: 25px; pointer-events: none; color: var(--text); }
 
     .btn { 
         position: relative; width: 100%; padding: 18px; border-radius: 22px; border: none; 
@@ -140,7 +137,7 @@
     .btn-text { position: relative; z-index: 2; }
     .pg-btn {
         width: 100%; padding: 20px 30px; border-radius: 22px; background: var(--card); border: 1px solid var(--border); color: var(--text); 
-        font-size: 1.2rem; letter-spacing: 1px; display: flex; justify-content: Space-between; align-items: center;
+        font-size: 1.2rem; letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center;
         cursor: pointer; margin-bottom: 15px; font-weight: thin; transition: 0.2s; text-transform: uppercase;
     }
     .pg-btn:hover { border-color: var(--text); }
@@ -181,15 +178,17 @@
         display: flex; justify-content: space-between; align-items: center;
     }
 
-    /* ================= CHAT STYLES ================= */
-    .red-dot-loader { width: 12px; height: 12px; background-color: #ff0000; border-radius: 50%; display: inline-block; animation: pulse-red 0.8s ease-in-out infinite; }
-    @keyframes pulse-red { 0% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7); } 70% { transform: scale(1.2); box-shadow: 0 0 0 10px rgba(255, 0, 0, 0); } 100% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); } }
+ /* ================= CHAT STYLES ================= */
+    .red-dot-loader { width: 10px; height: 10px; background-color: #ff0000; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #ff0000; animation: pulse-red 0.8s ease-in-out infinite; }
+    @keyframes pulse-red { 0% { transform: scale(0.8); opacity: 0.6; } 50% { transform: scale(1.2); opacity: 1; } 100% { transform: scale(0.8); opacity: 0.6; } }
 
     .msg-bubble { 
         background: rgba(255,255,255,0.03); border: 1px solid var(--border); padding: 12px 15px; 
         border-radius: 20px; position: relative; max-width: 85%; align-self: flex-start;
-        margin-bottom: 10px; display: flex; flex-direction: column;
+        margin-bottom: 10px; display: flex; flex-direction: column; cursor: pointer;
+        transition: background 0.2s;
     }
+    .msg-bubble:active { background: rgba(255,255,255,0.08); }
     .msg-bubble.self { align-self: flex-end; background: rgba(255, 255, 255, 0.1); border-color: var(--text); text-align: right; }
     .msg-bubble.self .u-badge { align-self: flex-end; }
 
@@ -200,7 +199,69 @@
     .msg-img { max-width: 100%; border-radius: 12px; margin-top: 5px; margin-bottom: 5px; border: 1px solid rgba(255,255,255,0.2); cursor: pointer; }
     #imgPreview { display: none; width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 10px; border: 1px solid var(--accent); cursor: pointer; }
 
-    /* ================= IMAGE VIEWER (NEW) ================= */
+    /* --- FIXED REPLY & DELETE UI --- */
+    #replyBanner {
+        background: var(--card); 
+        border-bottom: 1px solid var(--border); 
+        padding: 10px 15px;
+        display: none; 
+        align-items: center; /* Center align items vertically */
+        justify-content: space-between;
+        gap: 15px; /* Gap between text and close button */
+        font-size: 0.9rem; 
+        animation: slideUp 0.2s ease; 
+        color: var(--text);
+        max-width: 100%; /* Ensure it fits */
+    }
+    
+    .reply-info {
+        display: flex; 
+        flex-direction: column; 
+        flex: 1; /* Takes available space */
+        overflow: hidden; /* Hides extra text */
+        min-width: 0; /* Critical for flexbox text truncation */
+    }
+
+    #replyText { 
+        opacity: 0.7; 
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        display: block;
+        width: 100%;
+    }
+    
+    .close-reply-btn {
+        background: none; 
+        border: none; 
+        color: var(--text); 
+        cursor: pointer; 
+        font-size: 1.5rem; 
+        flex-shrink: 0; 
+        padding: 0 5px;
+    }
+    @keyframes slideUp { from { transform: translateY(10px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+    .quoted-block {
+        background: rgba(127, 127, 127, 0.15); border-left: 3px solid var(--text); padding: 6px 10px;
+        border-radius: 6px; margin-bottom: 8px; font-size: 0.85rem; display: flex; flex-direction: column; cursor: pointer;
+        text-align: left;
+    }
+    .q-name { font-weight: bold; font-size: 0.75rem; opacity: 0.9; margin-bottom: 2px; }
+    .q-text { opacity: 0.7; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    
+    .msg-footer { 
+        display: none; justify-content: flex-end; align-items: center; gap: 15px; margin-top: 6px; 
+        border-top: 1px solid rgba(255,255,255,0.05); padding-top: 5px;
+        animation: fadeIn 0.2s ease;
+    }
+    .msg-bubble.active-actions .msg-footer { display: flex; }
+
+    .action-btn { font-size: 0.8rem; opacity: 0.6; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 5px; padding: 2px 5px; }
+    .action-btn:hover { opacity: 1; color: var(--accent); }
+    .del-btn:hover { color: #ff4444; }
+
+    /* ================= IMAGE VIEWER ================= */
     #imgViewer {
         position: fixed; inset: 0; z-index: 5000;
         background: rgba(0,0,0,0.95); display: none;
@@ -215,7 +276,6 @@
         padding: 10px 20px; border-radius: 50px; cursor: pointer;
         font-size: 1rem; display: flex; align-items: center; gap: 8px;
     }
-    .v-btn:hover { background: #fff; color: #000; }
 
     /* ================= MUSIC UI ================= */
     .music-ui { text-align: center; }
@@ -249,24 +309,23 @@
     .up-box h4 { font-size: 1.4rem; color: var(--text) !important; }
     .up-box p { font-size: 0.9rem; opacity: 0.8 !important; margin-top: 4px; text-transform: none; }
     
-.sw-display { display: none; align-items: center; gap: 15px; margin: 0 0 12px; padding: 15px; background: var(--card); border-radius: 25px; border: 1px solid var(--border); animation: fadeIn 0.3s ease; }
+    .sw-display { display: none; align-items: center; gap: 15px; margin: 0 0 12px; padding: 15px; background: var(--card); border-radius: 25px; border: 1px solid var(--border); animation: fadeIn 0.3s ease; }
     .sw-img-box { width: 70px; height: 90px; border-radius: 12px; overflow: hidden; background: var(--card); flex-shrink: 0; }
     .sw-img-box img { width: 120%; height: 100%; object-fit: cover; }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
     
     .guide-box { border: 1px solid var(--border); border-radius: 22px; margin-bottom: 12px; overflow: hidden; margin-top: 0px; background: var(--card); }
-    .guide-header { padding: 18px; display: flex; justify-content: Space-between; align-items: center; cursor: pointer; }
+    .guide-header { padding: 18px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
     .guide-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out, opacity 0.3s ease, padding 0.3s ease; padding: 0 18px; opacity: 0; }
     .guide-content.open { max-height: 800px !important; padding: 18px; opacity: 1; border-top: 1px solid var(--border); }
     .guide-content p { color: var(--text) !important; opacity: 0.8 !important; text-transform: none; font-size: 1.1rem; margin-bottom: 12px; }
 
     .detail-card { background: var(--card); border: 1px solid var(--border); border-radius: 30px; padding: 25px; margin-top: 10px; animation: fadeIn 0.3s ease; }
-    #logBox { margin-top: 2px !important; }
-
+    
     .sc-badge { background: #222; color: #888; padding: 4px 10px; border-radius: 8px; font-size: 0.9rem; border: 1px solid var(--border); }
     .card-row { display: flex; gap: 10px; margin-top: 15px; }
 
-    footer { text-align: center; padding: 30px; opacity: 1 !important; font-size: 0.8rem; letter-spacing: 1px; margin-top: 10px; }
+    footer { text-align: center; padding: 30px; opacity: 1 !important; font-size: 0.8rem; letter-spacing: 1px; margin-top: 10px; position: relative; z-index: 10; }
     .footer-links { display: flex; justify-content: center; gap: 20px; margin-bottom: 10px; flex-wrap: wrap; }
     footer a { color: var(--text); }
     footer p { opacity: 0.8 !important; }
@@ -274,7 +333,7 @@
   </style>
 </head>
 <body>
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3QQWX28" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3QQWX28" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="stars-container" id="starField"></div>
   <div class="canvas"></div>
 
@@ -284,7 +343,7 @@
         <p style="opacity: 0.4; letter-spacing: 2px;">ONLY FOR FANS</p>
         <h1>Nothing<br>Space</h1>
       </div>
-      <button class="t-toggle" onclick="toggleTheme()" aria-label="Toggle Dark Mode" style="background:var(--card); border:1px solid var(--border);">
+      <button class="t-toggle" onclick="toggleTheme()" aria-label="Toggle Dark Mode">
         <i class="fa-solid fa-sun" id="t-icon"></i>
       </button>
     </div>
@@ -335,22 +394,22 @@
         <div id="setupUploadForm" class="upload-box" style="display:none;">
             <span style="display:block;color:var(--accent);margin-bottom:5px;">1. SCREENSHOTS (DISPLAY)</span>
             <div class="upload-grid">
-                <div class="upload-area" onclick="document.getElementById('ssHomeIn').click()"><div id="prevSsHome">LOCK SS</div></div>
-                <div class="upload-area" onclick="document.getElementById('ssLockIn').click()"><div id="prevSsLock">HOME SS</div></div>
+                <div class="upload-area" onclick="document.getElementById('ssLockIn').click()"><div id="prevSsLock">LOCK SS</div></div>
+                <div class="upload-area" onclick="document.getElementById('ssHomeIn').click()"><div id="prevSsHome">HOME SS</div></div>
             </div>
             
             <span style="display:block;color:var(--accent);margin-bottom:5px;">2. WALLPAPERS (DOWNLOAD)</span>
             <div class="upload-grid">
-                <div class="upload-area" onclick="document.getElementById('wallHomeIn').click()"><div id="prevWallHome">LOCK WP</div></div>
-                <div class="upload-area" onclick="document.getElementById('wallLockIn').click()"><div id="prevWallLock">HOME WP</div></div>
+                <div class="upload-area" onclick="document.getElementById('wallLockIn').click()"><div id="prevWallLock">LOCK WP</div></div>
+                <div class="upload-area" onclick="document.getElementById('wallHomeIn').click()"><div id="prevWallHome">HOME WP</div></div>
             </div>
 
-            <input type="file" id="ssHomeIn" accept="image/*" hidden onchange="handleImg(this, 'prevSsHome', true)">
             <input type="file" id="ssLockIn" accept="image/*" hidden onchange="handleImg(this, 'prevSsLock', true)">
-            <input type="file" id="wallHomeIn" accept="image/*" hidden onchange="handleImg(this, 'prevWallHome', false)">
+            <input type="file" id="ssHomeIn" accept="image/*" hidden onchange="handleImg(this, 'prevSsHome', true)">
             <input type="file" id="wallLockIn" accept="image/*" hidden onchange="handleImg(this, 'prevWallLock', false)">
+            <input type="file" id="wallHomeIn" accept="image/*" hidden onchange="handleImg(this, 'prevWallHome', false)">
             
-   <input type="text" id="setupTitle" placeholder="SETUP TITLE" maxlength="15" style="margin-bottom: 10px;">
+            <input type="text" id="setupTitle" placeholder="SETUP TITLE" maxlength="15" style="margin-bottom: 10px;">
             <textarea id="setupDesc" placeholder="DETAILS (Like- Widgets, Icon Pack ,)" rows="2"></textarea>
             <button class="btn" onclick="submitSetup()" id="submitBtn">POST NOW</button>
         </div>
@@ -366,6 +425,7 @@
       <button class="close-icon" onclick="closeScreen('upScr')">×</button>
       <h2>WEBSITE LOGS</h2>
       <div style="margin-top:20px;">
+              <div class="up-box"><h4> SETUP LAYOUT</h4><p>Share your customized home and lock screen.</p></div>
         <div class="up-box"><h4>COMMUNITY BOARD</h4><p>Now you can share feedback, ideas & suggestions.</p></div>
         <div class="up-box"><h4>NEW RINGTONE PLAYER</h4><p>Ad-free nonstop ringtones & background Playble.</p></div>
         <div class="up-box"><h4>NEW WALLPAPERS</h4><p>Added high-quality art works in the gallery.</p></div>
@@ -383,20 +443,31 @@
       
       <div id="msgBoard" style="flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 15px; scroll-behavior: smooth;"></div>
       
-      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 30px; padding: 5px 5px 5px 15px; display: flex; align-items: center; margin-top: 15px; position: sticky; bottom: 0;">
-        <img id="imgPreview" src="" onclick="clearImage()" title="Click to remove">
+      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 30px; overflow: hidden; margin-top: 15px; position: sticky; bottom: 0;">
         
-        <input type="text" id="userMsg" placeholder="SHARE SUGGESTION..." style="flex: 1; background: transparent; border: none; color: var(--text); outline: none; font-family: 'VT323' !important; font-size: 1.2rem;">
-        
-        <input type="file" id="imgInput" accept="image/*" style="display: none;" onchange="handleFileSelect()">
-        
-        <button id="imgUploadBtn" onclick="document.getElementById('imgInput').click()" style="width: 40px; height: 40px; border-radius: 50%; background: transparent; color: var(--text); border: none; cursor: pointer; margin-right: 5px; display: none;">
-          <i class="fa-solid fa-image"></i>
-        </button>
+        <div id="replyBanner">
+            <div class="reply-info">
+                <span style="font-size:0.7rem; color:var(--accent); font-weight:bold;">REPLYING TO</span>
+                <span id="replyText">User message...</span>
+            </div>
+            <button onclick="cancelReply()" class="close-reply-btn">×</button>
+        </div>
 
-        <button onclick="sendMsg()" style="width: 45px; height: 45px; border-radius: 50%; background: var(--text); color: var(--bg); border: none; cursor: pointer; display: flex; justify-content: center; align-items: center;">
-          <i class="fa-solid fa-arrow-up"></i>
-        </button>
+        <div style="padding: 5px 5px 5px 15px; display: flex; align-items: center;">
+            <img id="imgPreview" src="" onclick="clearImage()" title="Click to remove">
+            
+            <input type="text" id="userMsg" placeholder="SHARE SUGGESTION..." aria-label="Type Message" style="flex: 1; background: transparent; border: none; color: var(--text); outline: none; font-family: 'VT323' !important; font-size: 1.2rem;">
+            
+            <input type="file" id="imgInput" accept="image/*" style="display: none;" onchange="handleFileSelect()">
+            
+            <button id="imgUploadBtn" onclick="document.getElementById('imgInput').click()" style="width: 40px; height: 40px; border-radius: 50%; background: transparent; color: var(--text); border: none; cursor: pointer; margin-right: 5px; display: none;">
+                <i class="fa-solid fa-image"></i>
+            </button>
+
+            <button id="sendBtn" onclick="sendMsg()" aria-label="Send Message" style="width: 45px; height: 45px; border-radius: 50%; background: var(--text); color: var(--bg); border: none; cursor: pointer; display: flex; justify-content: center; align-items: center;">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
       </div>
     </div>
   </div>
@@ -426,7 +497,7 @@
     </div>
   </div>
 
-  <div id="swScr" class="screen">
+<div id="swScr" class="screen">
     <div class="modal">
       <button class="close-icon" onclick="closeScreen('swScr')">×</button>
       <h2>SYSTEM UPDATE</h2>
@@ -470,7 +541,6 @@
       </div>
     </div>
   </div>
-
   <div id="pgScr" class="screen">
     <div class="modal">
       <button class="close-icon" onclick="closeScreen('pgScr')">×</button>
@@ -495,7 +565,7 @@
       <button class="close-icon" onclick="closeScreen('wpScr')">×</button>
       <h2>GALLERY</h2>
       
-      <div onclick="toggleAI()" style="background: var(--text); border: 1px solid var(--border); border-radius: 20px; padding: 16px; margin-bottom: 15px; cursor: pointer; display: flex; justify-content: Space-between; align-items: center;">
+      <div onclick="toggleAI()" style="background: var(--text); border: 1px solid var(--border); border-radius: 20px; padding: 16px; margin-bottom: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
         <span style="color: var(--bg); font-weight: bold; font-size: 1.2rem;"> CREATE WITH AI</span>
         <i class="fa-solid fa-wand-magic-sparkles" style="color: var(--bg);"></i>
       </div>
@@ -537,11 +607,7 @@
       <div class="input-group" style="margin-top:20px;">
         <div class="custom-select-trigger" onclick="openStateMenu()">
           <span id="stateTriggerText">SELECT STATE</span>
-          <div class="dot-arrow">
-            <div class="dot-row"><div class="dot"></div><div class="dot" style="visibility:hidden"></div><div class="dot"></div></div>
-            <div class="dot-row"><div class="dot"></div><div class="dot"></div></div>
-            <div class="dot-row"><div class="dot"></div></div>
-          </div>
+          <div class="arrow-wrapper"><div class="dot-arrow"><div class="dot-row"><div class="dot"></div><div class="dot" style="visibility:hidden"></div><div class="dot"></div></div><div class="dot-row"><div class="dot"></div><div class="dot"></div></div><div class="dot-row"><div class="dot"></div></div></div></div>
         </div>
         <input type="hidden" id="state" value="">
       </div>
@@ -549,11 +615,7 @@
       <div class="input-group" id="cityGroup" style="display:none;">
         <div class="custom-select-trigger" onclick="openCityMenu()">
           <span id="cityTriggerText">SELECT CITY</span>
-          <div class="dot-arrow">
-            <div class="dot-row"><div class="dot"></div><div class="dot" style="visibility:hidden"></div><div class="dot"></div></div>
-            <div class="dot-row"><div class="dot"></div><div class="dot"></div></div>
-            <div class="dot-row"><div class="dot"></div></div>
-          </div>
+          <div class="arrow-wrapper"><div class="dot-arrow"><div class="dot-row"><div class="dot"></div><div class="dot" style="visibility:hidden"></div><div class="dot"></div></div><div class="dot-row"><div class="dot"></div><div class="dot"></div></div><div class="dot-row"><div class="dot"></div></div></div></div>
         </div>
         <input type="hidden" id="city" value="">
       </div>
@@ -563,26 +625,6 @@
   </div>
 
   <div id="aboutScr" class="screen">
-      <div class="modal">
-        <span class="close-icon" onclick="closeScreen('aboutScr')">×</span>
-        <h2>ABOUT US</h2>
-        <p style="text-align:center; opacity:0.6; font-size:0.9rem; margin-bottom:15px; letter-spacing:1px;">ESTABLISHED 2026 • COMMUNITY DRIVEN</p>
-        <div class="detail-card">
-          <p>Welcome to <b>Nothing Space</b>. We are a dedicated open-source resource hub built for enthusiasts of the Nothing™ technology ecosystem.</p>
-          <h3 style="margin-top:20px; font-size:1.2rem; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:5px;">THE TEAM</h3>
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
-            <div style="background:rgba(255,255,255,0.05);border:1px solid var(--border);padding:10px; border-radius:10px; text-align:center;">
-                <span style="font-size:0.8rem; opacity:0.6;">LEAD DEVELOPER</span><br><b>ROHIT KUMAR</b>
-            </div>
-            <div style="background:rgba(255,255,255,0.05);border:1px solid var(--border);padding:10px; border-radius:10px; text-align:center;">
-                <span style="font-size:0.8rem; opacity:0.6;">HQ LOCATION</span><br><b>BIHAR, INDIA</b>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-      <div id="aboutScr" class="screen">
       <div class="modal">
         <span class="close-icon" onclick="closeScreen('aboutScr')">×</span>
         <h2>ABOUT US</h2>
@@ -757,7 +799,6 @@
             <p style="margin-top: 20px; font-size: 0.8rem; color: var(--text-sec);">© 2026 Nothing Space. Designed in India.</p>
         </div>
            </footer>
-
   <script>
     /* ================= CONFIG & GLOBALS ================= */
     const CONFIG = {
@@ -770,6 +811,7 @@
     let SERVICE_DB = {}; 
     let currentPlaylist = [], currentIndex = 0, lastPlayedArt = "";
     let imgStore = { ssHome: null, ssLock: null, wallHome: null, wallLock: null };
+    let currentReply = null; 
 
     // ================= INITIALIZATION =================
     window.addEventListener('load', () => {
@@ -779,10 +821,6 @@
         checkVerifyStatus(); 
         setTimeout(() => { initSoftwareData(); initServiceData(); loadMessages(); }, 100);
     });
-
-    function loadHeavyScripts() { if (window.isScriptsLoaded) return; window.isScriptsLoaded = true; console.log("🚀 Heavy Scripts Placeholder"); }
-    ['scroll','touchstart','click'].forEach(e => window.addEventListener(e, loadHeavyScripts, {passive:true, once:true}));
-    setTimeout(loadHeavyScripts, 4500);
 
     /* ================= THEME & UI ================= */
     function applyAutoTheme() {
@@ -916,7 +954,8 @@
         const s = document.getElementById('state').value, c = document.getElementById('city').value, scInfo = document.getElementById('scInfo');
         if(!c || !SERVICE_DB[s]) return; scInfo.innerHTML = ''; 
         Object.keys(SERVICE_DB[s]).filter(key => key === c || key.startsWith(c + "_")).forEach(key => {
-            const d = SERVICE_DB[s][key]; scInfo.innerHTML += `<div class="detail-card"><div style="display:flex;justify-content:Space-between;margin-bottom:10px;"><h3 style="font-size:1.4rem;">${d.n}</h3><span class="sc-badge">ID: ${d.c}</span></div><p style="text-transform:none;opacity:0.7;font-size:1rem;margin-bottom:15px;"><span style="font-size:1.2rem;">${d.a}</p><div style="font-size:0.9rem;margin-bottom:15px;"><p>🕒 TIME: ${d.t}</p><p>🚫 OFF : ${d.o}</p></div><div class="card-row"><button class="btn" style="flex:1;padding:12px;" onclick="window.open('tel:${d.p}')">CALL</button><button class="btn" style="flex:1;padding:12px;" onclick="window.open('${d.m}')">MAPS</button></div></div>`;
+            const d = SERVICE_DB[s][key]; 
+            scInfo.innerHTML += `<div class="detail-card"><div style="display:flex;justify-content:space-between;margin-bottom:10px;"><h3 style="font-size:1.4rem;">${d.n}</h3><span class="sc-badge">ID: ${d.c}</span></div><p style="text-transform:none;opacity:0.7;font-size:1rem;margin-bottom:15px;"><span style="font-size:1.2rem;">${d.a}</p><div style="font-size:0.9rem;margin-bottom:15px;"><p>🕒 TIME: ${d.t}</p><p>🚫 OFF : ${d.o}</p></div><div class="card-row"><button class="btn" style="flex:1;padding:12px;" onclick="window.open('tel:${d.p}')">CALL</button><button class="btn" style="flex:1;padding:12px;" onclick="window.open('${d.m}')">MAPS</button></div></div>`;
         });
     }
     let sw_timer; function startSoftwareLogic() { sw_timer = setTimeout(() => { if(navigator.vibrate) navigator.vibrate(50); openSoftwareMenu(); }, 6500); }
@@ -934,44 +973,47 @@
 
     /* ================= MUSIC MODULE ================= */
     async function searchMusic() {
-    const query = document.getElementById('mQuery').value; const btn = document.getElementById('mSearchBtn'); const card = document.getElementById('music-card');
-    if (!query) return; const originalBtn = btn.innerHTML; btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
-    try {
-        const _0x1 = "aHR0cHM6Ly9pdHVuZXMuYXBwbGUuY29tL3NlYXJjaD9saW1pdD0yNTAmZW50aXR5PXNvbmcmdGVybT0="; const res = await fetch(`${atob(_0x1)}${encodeURIComponent(query)}`); const data = await res.json();
-        if (data.results.length > 0) { 
-            currentPlaylist = data.results.map(song => ({ 
-                url: song.previewUrl, 
-                art: song.artworkUrl100.replace('100x100', '400x400'), 
-                title: song.trackName.replace(/mzaf_\d+/g, "Nothing TRACK").toUpperCase(), 
-                artist: song.artistName
-            })); 
-            currentIndex = 0; card.style.display = "block"; loadSong(0); 
-        } else alert("Nothing FOUND");
-    } catch (e) { console.error(e); } finally { btn.innerHTML = originalBtn; }
-}
+        const query = document.getElementById('mQuery').value; const btn = document.getElementById('mSearchBtn'); const card = document.getElementById('music-card');
+        if (!query) return; const originalBtn = btn.innerHTML; btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+        try {
+            const _0x1 = "aHR0cHM6Ly9pdHVuZXMuYXBwbGUuY29tL3NlYXJjaD9saW1pdD0yNTAmZW50aXR5PXNvbmcmdGVybT0="; 
+            const res = await fetch(`${atob(_0x1)}${encodeURIComponent(query)}`); 
+            const data = await res.json();
+            if (data.results.length > 0) { 
+                currentPlaylist = data.results.map(song => ({ 
+                    url: song.previewUrl, 
+                    art: song.artworkUrl100.replace('100x100', '400x400'), 
+                    title: song.trackName.replace(/mzaf_\d+/g, "Nothing TRACK").toUpperCase(), 
+                    artist: song.artistName
+                })); 
+                currentIndex = 0; card.style.display = "block"; loadSong(0); 
+            } else alert("Nothing FOUND");
+        } catch (e) { console.error(e); } finally { btn.innerHTML = originalBtn; }
+    }
 
-function loadSong(index) {
-    if (!currentPlaylist[index]) return; const song = currentPlaylist[index]; const player = document.getElementById('mPlayer');
-    document.getElementById('mArt').src = song.art; document.getElementById('mTitle').innerText = song.title; document.getElementById('mArtist').innerText = song.artist; lastPlayedArt = song.art; if(document.getElementById('mini-art')) document.getElementById('mini-art').src = lastPlayedArt; 
-    player.src = song.url; player.load(); togglePlay(true);
-    if ('mediaSession' in navigator) { navigator.mediaSession.metadata = new MediaMetadata({ title: song.title, artist: song.artist, album: "Nothing Space", artwork: [{ src: song.art, sizes: '512x512', type: 'image/jpeg' }] }); navigator.mediaSession.setActionHandler('play', function() { togglePlay(true); }); navigator.mediaSession.setActionHandler('pause', function() { togglePlay(false); }); navigator.mediaSession.setActionHandler('previoustrack', prevSong); navigator.mediaSession.setActionHandler('nexttrack', nextSong); }
-}
+    function loadSong(index) {
+        if (!currentPlaylist[index]) return; const song = currentPlaylist[index]; const player = document.getElementById('mPlayer');
+        document.getElementById('mArt').src = song.art; document.getElementById('mTitle').innerText = song.title; document.getElementById('mArtist').innerText = song.artist; lastPlayedArt = song.art; if(document.getElementById('mini-art')) document.getElementById('mini-art').src = lastPlayedArt; 
+        player.src = song.url; player.load(); togglePlay(true);
+        if ('mediaSession' in navigator) { navigator.mediaSession.metadata = new MediaMetadata({ title: song.title, artist: song.artist, album: "Nothing Space", artwork: [{ src: song.art, sizes: '512x512', type: 'image/jpeg' }] }); navigator.mediaSession.setActionHandler('play', function() { togglePlay(true); }); navigator.mediaSession.setActionHandler('pause', function() { togglePlay(false); }); navigator.mediaSession.setActionHandler('previoustrack', prevSong); navigator.mediaSession.setActionHandler('nexttrack', nextSong); }
+    }
 
-function togglePlay(forcePlay = false) {
-    const player = document.getElementById('mPlayer'); const icon = document.querySelector('#play-pause i'); const art = document.getElementById('mArt');
-    if (player.paused || forcePlay) { player.play().catch(()=>{}); icon.className = "fa-solid fa-circle-pause"; art.classList.add('spinning'); if('mediaSession' in navigator) navigator.mediaSession.playbackState = "playing"; } 
-    else { player.pause(); icon.className = "fa-solid fa-circle-play"; art.classList.remove('spinning'); if('mediaSession' in navigator) navigator.mediaSession.playbackState = "paused"; }
-}
+    function togglePlay(forcePlay = false) {
+        const player = document.getElementById('mPlayer'); const icon = document.querySelector('#play-pause i'); const art = document.getElementById('mArt');
+        if (player.paused || forcePlay) { player.play().catch(()=>{}); icon.className = "fa-solid fa-circle-pause"; art.classList.add('spinning'); if('mediaSession' in navigator) navigator.mediaSession.playbackState = "playing"; } 
+        else { player.pause(); icon.className = "fa-solid fa-circle-play"; art.classList.remove('spinning'); if('mediaSession' in navigator) navigator.mediaSession.playbackState = "paused"; }
+    }
 
-function nextSong() { if(currentPlaylist.length) { currentIndex = (currentIndex + 1) % currentPlaylist.length; loadSong(currentIndex); } }
-function prevSong() { if(currentPlaylist.length) { currentIndex = (currentIndex - 1 + currentPlaylist.length) % currentPlaylist.length; loadSong(currentIndex); } }
-function handleMusicClose() { closeScreen('musicScr'); if (!document.getElementById('mPlayer').paused) { document.getElementById('mini-player').style.display = 'block'; document.getElementById('mini-art').src = lastPlayedArt; document.getElementById('mini-art').classList.add('spinning'); } }
-function restorePlayer() { document.getElementById('mini-player').style.display = 'none'; openScreen('musicScr'); }
+    function nextSong() { if(currentPlaylist.length) { currentIndex = (currentIndex + 1) % currentPlaylist.length; loadSong(currentIndex); } }
+    function prevSong() { if(currentPlaylist.length) { currentIndex = (currentIndex - 1 + currentPlaylist.length) % currentPlaylist.length; loadSong(currentIndex); } }
+    function handleMusicClose() { closeScreen('musicScr'); if (!document.getElementById('mPlayer').paused) { document.getElementById('mini-player').style.display = 'block'; document.getElementById('mini-art').src = lastPlayedArt; document.getElementById('mini-art').classList.add('spinning'); } }
+    function restorePlayer() { document.getElementById('mini-player').style.display = 'none'; openScreen('musicScr'); }
 
-async function downloadCurrentSong() {
-    const song = currentPlaylist[currentIndex]; const btn = document.querySelector('#music-card .btn'); if(!song) return; btn.style.pointerEvents = "none"; btn.innerText = "FETCHING...";
-    try { const response = await fetch(song.url); const blob = await response.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `${song.title.replace(/[^a-zA-Z0-9\s]/g, '').trim()} - NothingSpace.mp3`; document.body.appendChild(a); a.click(); document.body.removeChild(a); window.URL.revokeObjectURL(url); btn.innerText = "DONE ✓"; } catch (e) { window.open(song.url, '_blank'); btn.innerText = "OPENED"; } setTimeout(() => { btn.innerText = "DOWNLOAD"; btn.style.pointerEvents = "all"; }, 2000); 
-}
+    async function downloadCurrentSong() {
+        const song = currentPlaylist[currentIndex]; const btn = document.querySelector('#music-card .btn'); if(!song) return; btn.style.pointerEvents = "none"; btn.innerText = "FETCHING...";
+        try { const response = await fetch(song.url); const blob = await response.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `${song.title.replace(/[^a-zA-Z0-9\s]/g, '').trim()} - NothingSpace.mp3`; document.body.appendChild(a); a.click(); document.body.removeChild(a); window.URL.revokeObjectURL(url); btn.innerText = "DONE ✓"; } catch (e) { window.open(song.url, '_blank'); btn.innerText = "OPENED"; } setTimeout(() => { btn.innerText = "DOWNLOAD"; btn.style.pointerEvents = "all"; }, 2000); 
+    }
+
     /* ================= SETUP/LAYOUTS MODULE ================= */
     function handleImg(input, prevId, isScreen) {
         if (input.files && input.files[0]) {
@@ -989,10 +1031,10 @@ async function downloadCurrentSong() {
                     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
                     const res = canvas.toDataURL('image/jpeg', 0.7);
                     
-                    if(prevId === 'prevSsHome') imgStore.ssHome = res;
                     if(prevId === 'prevSsLock') imgStore.ssLock = res;
-                    if(prevId === 'prevWallHome') imgStore.wallHome = res;
+                    if(prevId === 'prevSsHome') imgStore.ssHome = res;
                     if(prevId === 'prevWallLock') imgStore.wallLock = res;
+                    if(prevId === 'prevWallHome') imgStore.wallHome = res;
 
                     document.getElementById(prevId).innerHTML = `<img src="${res}" style="width:100%; height:100%; object-fit:contain;">`;
                 }
@@ -1002,86 +1044,82 @@ async function downloadCurrentSong() {
     }
 
     async function submitSetup() {
-    const title = document.getElementById('setupTitle').value;
-    const btn = document.getElementById('submitBtn');
+        const title = document.getElementById('setupTitle').value;
+        const btn = document.getElementById('submitBtn');
 
-    // 1. Check Images & Title
-    if(!title || !imgStore.ssHome || !imgStore.ssLock || !imgStore.wallHome || !imgStore.wallLock) {
-        alert("ERROR: Please upload all 4 required images (Home/Lock Screenshots & Wallpapers)!");
-        return;
-    }
+        if(!title || !imgStore.ssLock || !imgStore.ssHome || !imgStore.wallLock || !imgStore.wallHome) {
+            alert("ERROR: Please upload all 4 required images (Home/Lock Screenshots & Wallpapers)!");
+            return;
+        }
 
         if (!savedName || savedName === "USER") {
-        let enterName = prompt("ENTER YOUR NAME");
-        if (!enterName || enterName.trim() === "") return; // Agar cancel kiya toh ruk jao
-        savedName = enterName.trim().toUpperCase();
-        localStorage.setItem('ns_user_fixed', savedName); // Name save kar lo
+            let enterName = prompt("ENTER YOUR NAME");
+            if (!enterName || enterName.trim() === "") return; 
+            savedName = enterName.trim().toUpperCase();
+            localStorage.setItem('ns_user_fixed', savedName); 
+        }
+
+        btn.innerText = "UPLOADING..."; btn.style.pointerEvents = "none";
+
+        const data = {
+            title: title.toUpperCase(),
+            desc: document.getElementById('setupDesc').value,
+            ssLock: imgStore.ssLock,
+            ssHome: imgStore.ssHome, 
+            wallLock: imgStore.wallLock,
+            wallHome: imgStore.wallHome,
+            likes: 0,
+            uuid: userUUID,
+            author: savedName,
+            date: Date.now()
+        };
+
+        try {
+            await fetch(SETUP_DB_URL, { method: 'POST', body: JSON.stringify(data) });
+            alert("UPLOADED! 🎉"); location.reload();
+        } catch(e) {
+            alert("FAIL"); btn.innerText = "RETRY"; btn.style.pointerEvents = "all";
+        }
     }
-
-    btn.innerText = "UPLOADING..."; btn.style.pointerEvents = "none";
-
-    const data = {
-        title: title.toUpperCase(),
-        desc: document.getElementById('setupDesc').value,
-        ssHome: imgStore.ssHome,
-        ssLock: imgStore.ssLock,
-        wallHome: imgStore.wallHome,
-        wallLock: imgStore.wallLock,
-        likes: 0,
-        uuid: userUUID,
-        author: savedName,
-        date: Date.now()
-    };
-
-    try {
-        await fetch(SETUP_DB_URL, { method: 'POST', body: JSON.stringify(data) });
-        alert("UPLOADED! 🎉"); location.reload();
-    } catch(e) {
-        alert("FAIL"); btn.innerText = "RETRY"; btn.style.pointerEvents = "all";
-    }
-}
-async function loadSetups() {
-    const grid = document.getElementById('setupGrid');
-    try {
-        const res = await fetch(SETUP_DB_URL);
-        const data = await res.json();
-        if(!data) { grid.innerHTML = "<p style='text-align:center'>NO SETUPS YET</p>"; return; }
-        
-        const list = Object.keys(data).map(k => ({id:k, ...data[k]}));
-        list.sort((a,b) => (b.likes||0) - (a.likes||0)); 
-
-        grid.innerHTML = list.map(p => {
-            const isMine = p.uuid === userUUID;
-            const liked = localStorage.getItem('l_'+p.id) ? 'liked' : '';
+    async function loadSetups() {
+        const grid = document.getElementById('setupGrid');
+        try {
+            const res = await fetch(SETUP_DB_URL);
+            const data = await res.json();
+            if(!data) { grid.innerHTML = "<p style='text-align:center'>NO SETUPS YET</p>"; return; }
             
-         const displayName = p.author ? p.author : (isMine ? 'YOU' : 'USER');
+            const list = Object.keys(data).map(k => ({id:k, ...data[k]}));
+            list.sort((a,b) => (b.likes||0) - (a.likes||0)); 
 
-            return `
-            <div class="setup-card">
-                <div class="setup-header">
-                    <h3>${p.title}</h3>
-                    <span style="opacity:0.5; font-size:0.8rem; border:1px solid #333; padding:2px 6px; border-radius:4px;">${displayName}</span>
-                </div>
-                <div class="phone-showcase">
-                    <div class="phone-frame" onclick="selectFrame(this, '${p.wallHome}', '${p.title}_HOME')">
-                        <img src="${p.ssHome}">
+            grid.innerHTML = list.map(p => {
+                const isMine = p.uuid === userUUID;
+                const liked = localStorage.getItem('l_'+p.id) ? 'liked' : '';
+                const displayName = p.author ? p.author : (isMine ? 'YOU' : 'USER');
+
+                return `
+                <div class="setup-card">
+                    <div class="setup-header">
+                        <h3>${p.title}</h3>
+                        <span style="opacity:0.5; font-size:0.8rem; border:1px solid #333; padding:2px 6px; border-radius:4px;">${displayName}</span>
                     </div>
-                    ${p.ssLock ? `<div class="phone-frame" onclick="selectFrame(this, '${p.wallLock}', '${p.title}_LOCK')"><img src="${p.ssLock}"></div>` : ''}
-                </div>
-                <button class="dl-btn">DOWNLOAD WALLPAPER</button>
-                <p style="margin:15px 0 10px; opacity:0.8; font-size:0.9rem;">${p.desc || ''}</p>
-                <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid #222; padding-top:15px;">
-                    <button class="like-btn ${liked}" onclick="doLike('${p.id}', ${p.likes||0}, this)">
-                        <i class="fa-solid fa-heart"></i> <span>${p.likes||0}</span>
-                    </button>
-                    <div onclick="deleteSetup('${p.id}', '${p.uuid}')" style="cursor:pointer; padding:5px;">
-                        <i class="fa-solid fa-trash" style="opacity:0.5;"></i>
+                    <div class="phone-showcase">
+                        <div class="phone-frame" onclick="selectFrame(this, '${p.wallHome}', '${p.title}_LOCK')">
+                            <img src="${p.ssHome}">
+                        </div>
+                        ${p.ssLock ? `<div class="phone-frame" onclick="selectFrame(this, '${p.wallLock}', '${p.title}_HOME')"><img src="${p.ssLock}"></div>` : ''}
                     </div>
-                </div>
-            </div>`;
-        }).join('');
-    } catch(e) { grid.innerHTML = "<p style='text-align:center'>ERROR LOADING</p>"; }
-}
+                    <button class="dl-btn">DOWNLOAD WALLPAPER</button>
+                    <p style="margin:15px 0 10px; opacity:0.8; font-size:0.9rem;">${p.desc || ''}</p>
+                    <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid #222; padding-top:15px;">
+                        <button class="like-btn ${liked}" onclick="doLike('${p.id}', ${p.likes||0}, this)">
+                            <i class="fa-solid fa-heart"></i> <span>${p.likes||0}</span>
+                        </button>
+                        ${isMine ? `<div onclick="deleteSetup('${p.id}', '${p.uuid}')" style="cursor:pointer; padding:5px;"><i class="fa-solid fa-trash" style="opacity:0.5;"></i></div>` : ''}
+                    </div>
+                </div>`;
+            }).join('');
+        } catch(e) { grid.innerHTML = "<p style='text-align:center'>ERROR LOADING</p>"; }
+    }
 
     async function deleteSetup(id, postUUID) {
         const isMine = postUUID === userUUID;
@@ -1102,17 +1140,20 @@ async function loadSetups() {
     }
 
     function selectFrame(frame, wallUrl, name) {
+        const wasActive = frame.classList.contains('active');
         document.querySelectorAll('.phone-frame').forEach(f => f.classList.remove('active'));
         document.querySelectorAll('.dl-btn').forEach(b => b.style.display = 'none');
-        frame.classList.add('active');
-        const card = frame.closest('.setup-card');
-        const btn = card.querySelector('.dl-btn');
-        if(btn) {
-            btn.style.display = 'block';
-            btn.onclick = () => {
-                const a = document.createElement('a'); a.href = wallUrl; a.download = name+".jpg";
-                document.body.appendChild(a); a.click(); document.body.removeChild(a);
-            };
+        if (!wasActive) {
+            frame.classList.add('active');
+            const card = frame.closest('.setup-card');
+            const btn = card.querySelector('.dl-btn');
+            if(btn) {
+                btn.style.display = 'block';
+                btn.onclick = () => {
+                    const a = document.createElement('a'); a.href = wallUrl; a.download = name+".jpg";
+                    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+                };
+            }
         }
     }
 
@@ -1136,9 +1177,14 @@ async function loadSetups() {
         try {
             const res = await fetch("https://nothingcommunity-7664f-default-rtdb.firebaseio.com/verified_users.json");
             const v = await res.json() || {};
-            if(v[userUUID] === true) document.getElementById('imgUploadBtn').style.display = 'block';
+            if(v[userUUID] === true) {
+                document.getElementById('imgUploadBtn').style.display = 'block';
+            } else {
+                document.getElementById('imgUploadBtn').style.display = 'none';
+            }
         } catch(e) {}
     }
+
     function handleFileSelect() {
         const fileInput = document.getElementById('imgInput');
         const file = fileInput.files[0];
@@ -1159,7 +1205,7 @@ async function loadSetups() {
                 img.src = e.target.result;
                 img.onload = function() {
                     const canvas = document.createElement('canvas');
-                    const MAX_WIDTH = 800; // Resize to max 800px width
+                    const MAX_WIDTH = 800; 
                     const scaleSize = MAX_WIDTH / img.width;
                     canvas.width = MAX_WIDTH;
                     canvas.height = img.height * scaleSize;
@@ -1179,18 +1225,73 @@ async function loadSetups() {
         });
     }
     function clearImage() { document.getElementById('imgInput').value = ""; document.getElementById('imgPreview').style.display = 'none'; selectedImgBase64 = ""; }
+    
+    // NEW REPLY FUNCTIONS
+    function initReply(id, name, text) {
+        currentReply = { id: id, name: name, text: text };
+        document.getElementById('replyBanner').style.display = 'flex';
+        document.getElementById('replyText').innerText = name + ": " + text;
+        document.getElementById('userMsg').focus();
+    }
+
+    function cancelReply() {
+        currentReply = null;
+        document.getElementById('replyBanner').style.display = 'none';
+    }
+
+    // SCROLL TO MSG FUNCTION
+    function scrollToMsg(id) {
+        const target = document.getElementById(`msg-${id}`);
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            target.style.transition = "background 0.5s ease";
+            const originalBg = target.style.background;
+            target.style.background = "rgba(255, 0, 0, 0.2)"; 
+            setTimeout(() => { target.style.background = originalBg; }, 1000);
+        } else {
+            alert("Message not found (might be deleted or not loaded).");
+        }
+    }
 
     async function sendMsg() {
-        const input = document.getElementById('userMsg'); const btn = document.querySelector('#feedbackScr button:last-child'); const msg = input.value.trim();
+        const input = document.getElementById('userMsg'); const btn = document.getElementById('sendBtn'); 
+        let msg = input.value.trim();
+        
         if (!msg && !selectedImgBase64) return;
         if (msg === "/reset") { localStorage.removeItem('ns_user_fixed'); savedName = ""; alert("NAME RESET!"); input.value = ""; return; }
         if (!savedName || savedName === "USER") { let enterName = prompt("ENTER YOUR NAME:"); if (!enterName || enterName.trim() === "") return; savedName = enterName.trim().toUpperCase(); localStorage.setItem('ns_user_fixed', savedName); }
+        
+        const payload = { 
+            userName: savedName, 
+            text: msg, 
+            image: selectedImgBase64, 
+            reply: "", 
+            timestamp: Date.now(), 
+            uuid: userUUID, 
+            isVerified: false,
+            quoted: currentReply ? { id: currentReply.id, name: currentReply.name, text: currentReply.text } : null 
+        };
+
         const originalHTML = btn.innerHTML; btn.disabled = true; btn.innerHTML = '<span class="red-dot-loader"></span>';
         try {
             const banCheck = await fetch(`https://nothingcommunity-7664f-default-rtdb.firebaseio.com/banned/${userUUID}.json`); const isBanned = await banCheck.json(); if (isBanned === true) { alert("🚫 YOU ARE BANNED."); return; }
-            await fetch(DB_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ userName: savedName, text: msg, image: selectedImgBase64, reply: "", timestamp: Date.now(), uuid: userUUID, isVerified: false }) }); 
-            input.value = ""; clearImage(); await loadMessages(); 
+            await fetch(DB_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) }); 
+            input.value = ""; clearImage(); cancelReply(); await loadMessages(); 
         } catch (e) { alert("FAILED"); } finally { btn.disabled = false; btn.innerHTML = originalHTML; }
+    }
+
+    function toggleMsgActions(bubble) {
+        const isActive = bubble.classList.contains('active-actions');
+        document.querySelectorAll('.msg-bubble').forEach(b => b.classList.remove('active-actions'));
+        if(!isActive) bubble.classList.add('active-actions');
+    }
+
+    async function deleteMyMsg(id) {
+        if(!confirm("DELETE?")) return;
+        try {
+            await fetch(`https://nothingcommunity-7664f-default-rtdb.firebaseio.com/chat/${id}.json`, { method: 'DELETE' });
+            loadMessages();
+        } catch(e) { alert("ERROR"); }
     }
 
     async function loadMessages() {
@@ -1199,19 +1300,44 @@ async function loadSetups() {
             const data = await chatRes.json(); const verifiedData = await verifyRes.json() || {}; const board = document.getElementById('msgBoard');
             if (!data) { board.innerHTML = '<p style="opacity:0.4; text-align:center;">NO MESSAGES YET.</p>'; return; }
             const messages = Object.keys(data).map(key => ({ id: key, ...data[key] }));
+            
             board.innerHTML = messages.map(m => {
                 const isUserVerified = (m.uuid && verifiedData[m.uuid] === true);
                 const tickHtml = isUserVerified ? '<i class="fa-solid fa-circle-check" style="color:#1da1f2; margin-left:4px; font-size:0.8rem;"></i>' : '';
                 const isMe = m.uuid === userUUID; const alignClass = isMe ? 'self' : '';
+                const deleteBtn = isMe ? `<span class="action-btn del-btn" onclick="event.stopPropagation(); deleteMyMsg('${m.id}')"><i class="fa-solid fa-trash"></i> DELETE</span>` : '';
+                
+                let quotedHtml = ''; 
+                if (m.quoted) { 
+                    const replyId = m.quoted.id || ''; 
+                    const clickAction = replyId ? `onclick="event.stopPropagation(); scrollToMsg('${replyId}')"` : '';
+                    quotedHtml = `<div class="quoted-block" ${clickAction} style="${replyId ? 'cursor:pointer;' : ''}">
+                                    <span class="q-name">${m.quoted.name}</span>
+                                    <span class="q-text">${m.quoted.text}</span>
+                                  </div>`; 
+                }
+
                 return `
-                <div class="msg-bubble ${alignClass}" style="user-select: none;" 
+                <div id="msg-${m.id}" class="msg-bubble ${alignClass}" style="user-select: none;" 
                      onmousedown="startPress('${m.id}', '${m.userName}', ${isUserVerified}, '${m.uuid}')" 
                      ontouchstart="startPress('${m.id}', '${m.userName}', ${isUserVerified}, '${m.uuid}')" 
-                     onmouseup="cancelPress()" onmouseleave="cancelPress()" ontouchend="cancelPress()">
+                     onmouseup="cancelPress()" onmouseleave="cancelPress()" ontouchend="cancelPress()"
+                     onclick="toggleMsgActions(this)">
+                    
                     <span class="u-badge">${m.userName || 'USER'} ${tickHtml}</span>
+                    ${quotedHtml}
                     ${m.image ? `<img src="${m.image}" class="msg-img" onclick="openImageViewer(this.src)">` : ''}
+                    
                     <p style="text-transform:none; margin:5px 0;">${m.text}</p>
+
                     ${m.reply ? `<div class="admin-reply-box"><span class="admin-tag">● ADMIN REPLY</span><p style="text-transform:none; opacity:0.8;">${m.reply}</p></div>` : ''}
+                    
+                    <div class="msg-footer">
+                        <span class="action-btn" onclick="event.stopPropagation(); initReply('${m.id}', '${m.userName}', '${m.text.replace(/'/g, "\\'")}')">
+                            <i class="fa-solid fa-reply"></i> REPLY
+                        </span>
+                        ${deleteBtn}
+                    </div>
                 </div>`;
             }).join(''); board.scrollTop = board.scrollHeight;
         } catch (e) { console.log(e); }
