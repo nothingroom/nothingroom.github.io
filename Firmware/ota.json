@@ -474,7 +474,7 @@
       "fingerprint": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys",
       "ota_url": "https://android.googleapis.com/packages/ota-api/package/dffba13386352dfbd57fa4cdf51f8062a7dc0a59.zip",
       "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Improved lock screen stability for a more reliable unlocking experience.<br>\n💬 Fixed an issue where third-party notifications could crash unexpectedly in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
-      "extracted_at": "2026-09-06 17:53:43 UTC"
+      "extracted_at": "2026-09-07 17:53:43 UTC"
     },
     {
       "title": "CMF Phone 1",
