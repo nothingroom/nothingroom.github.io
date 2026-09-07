@@ -74,16 +74,6 @@
   "Metroid": [
     {
       "title": "Nothing Phone (3)",
-      "version": "Nothing OS B4.1-260814-1733",
-      "codename": "Metroid",
-      "source_fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2606241457:user/release-keys",
-      "fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidEEA/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidIND/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidJPN/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidTUR/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys",
-      "ota_url": "https://android.googleapis.com/packages/ota-api/package/2a52b639be641edff7fb07fac5d645503acd14bc.zip",
-      "changelog": "<h3>What's New in This Update</h3>\n<b>Essential Voice Enhancements</b><br>\n<br>\n🔡 You can now customise whether a long-press or a double-click of the Essential Key triggers translation or transcription while typing. Set it up in Settings > Intelligence toolkit > Essential Voice > Customise Essential Key.<br>\n⌨️ Quick switch between translation and transcription is now available by long-pressing the icon on the keyboard.<br>\n🎧 Essential Voice can now be triggered via the Ear (3) Super Mic while using the keyboard.<br>\n🎙️ Optimised Essential Voice for a smoother performance.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n✨ Gallery image editing now supports AI Eraser, helping instantly remove unwanted objects, pedestrians, or reflections with one tap.<br>\n🎚️ Optimised the volume slider animation effect at minimum volume for a more fluid feel.<br>\n🔗 Improved Bluetooth connection reliability during phone calls.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
-      "extracted_at": "2026-09-06 06:45:15 UTC"
-    },
-    {
-      "title": "Nothing Phone (3)",
       "version": "Nothing OS B4.1-260624-1457",
       "codename": "Metroid",
       "source_fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141846:user/release-keys",
