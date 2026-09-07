@@ -1,0 +1,646 @@
+{
+  "Pong": [
+    {
+      "title": "Nothing Phone (2)",
+      "version": "Nothing OS B4.1-260818-1726",
+      "codename": "Pong",
+      "source_fingerprint": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys",
+      "fingerprint": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/0fabd802d4714166f47aed0104d2eb4e8fcaad9f.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔆 Fixed an issue where manual exposure adjustment didn't apply to photos taken with HDR enabled.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:05:10 UTC"
+    },
+    {
+      "title": "Nothing Phone (2)",
+      "version": "Nothing OS B4.1-260414-1749",
+      "codename": "Pong",
+      "source_fingerprint": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2512261110:user/release-keys",
+      "fingerprint": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/743813bb1c6309f3a90b8ed4af5409de8e5385d0.zip",
+      "changelog": "<h3>Nothing OS 4.1</h3>\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as the lock screen, notification panel, and Glyph Interface, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n💬 Essential Notifications settings UI has been reworked with a cleaner look and descriptions for easier use.<br>\n🫧 Notifications that are frequently interacted with may be suggested to be set as Essential Notification.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🤳 Enhanced video call stability to prevent stuttering when using certain third-party apps.<br>\n🍃 Optimised the stability of Time-lapse mode shooting in the Camera app.<br>\n📱 Fixed some display errors in the notification panel and the status bar.<br>\n⚙️ Enhanced overall system stability and performance.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 06:55:49 UTC"
+    },
+    {
+      "title": "Nothing Phone (2)",
+      "version": "Nothing OS B4.0-251226-1110",
+      "codename": "Pong",
+      "source_fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2509171451:user/release-keys",
+      "fingerprint": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2512261110:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2512261110:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2512261110:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/b24f00fb58ac92ab437ecd4006133303be5ac970.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Visual Enhancements</b><br>\n<br>\n🔋 Updated the battery percentage icon with the number displayed inside.<br>\n🌑 Optimised Extra dark mode for better visual adaptation to more scenarios.<br>\n🎚️ Improved the smoothness of the volume slider animation when adjusting volume via keys.<br>\n📼 Optimised sound wave and wheel animations in Recorder for a more fluid experience.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔔 Setting different ringtones for dual SIMs is now supported.<br>\n🚶 Enhanced the stability of the Pedometer widgets.<br>\n📷 Improved overall Camera stability.<br>\n🎨 Optimised the stability and colour consistency of camera presets.<br>\n🟢 Optimised Pop-up view for smoother and more reliable performance.<br>\n📳 Optimised the vibration and haptic feedback across more scenarios.<br>\n💡 Optimised the response stability of Glyph Interface to notifications and incoming calls in certain scenarios.<br>\n🔒 Enhanced the stability of lock screen, AOD, and unlocking for a more fluid experience.<br>\n👥 Improved multi-user mode to prevent changes in the main user from affecting other users.<br>\n📱 Fixed display issues in the status bar, Quick Settings, and notifications for improved visual consistency.<br>\n🎧 Fixed an issue where the Battery widget did not show the AirPods icon when AirPods support was enabled.<br>\n🛜 Optimised automatic reconnection speed for saved Wi-Fi networks.<br>\n⚙️ Enhanced overall system stability and smoothness.<br>\n🌐 Updated Google Mobile Services (GMS) to the December 2025 version.<br>\n🛡️ Updated to December security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 06:55:44 UTC"
+    },
+    {
+      "title": "Nothing Phone (2)",
+      "version": "Nothing OS V3.2-250917-1451",
+      "codename": "Pong",
+      "source_fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2508281921:user/release-keys",
+      "fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2509171451:user/release-keys|Nothing/PongEEA/Pong:15/AQ3A.240929.001/2509171451:user/release-keys|Nothing/PongIND/Pong:15/AQ3A.240929.001/2509171451:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/e57db3f2ff14fa60f69fcafa345e02153c1d8890.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Enhanced system stability and optimised system performance.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 06:55:41 UTC"
+    },
+    {
+      "title": "Nothing Phone (2)",
+      "version": "Nothing OS V3.2-250828-1921",
+      "codename": "Pong",
+      "source_fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2507082227:user/release-keys",
+      "fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2508281921:user/release-keys|Nothing/PongEEA/Pong:15/AQ3A.240929.001/2508281921:user/release-keys|Nothing/PongIND/Pong:15/AQ3A.240929.001/2508281921:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/b7d257746e624dbb4051707e935413987baa3ca7.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n📷 Preset is now available in the Camera app settings.<br>\n✅ Default gallery options for previewing photos in Camera app settings are updated.<br>\n🚶 Pedometer and Screentime Widgets now support sharing.<br>\n📱 Shared Widgets now support more sticker types.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔧 Fixed tiles display errors in Quick Settings.<br>\n🗃️ Resolved the issue of failing to open PDFs in Cloned apps.<br>\n📊 Optimised the display of VoNR icon in the status bar.<br>\n⛔ Fixed the issue of failing to block connected devices in Hotspot and tethering.<br>\n🔋 Optimised battery usage when connecting watches to the phone.<br>\n🔤 Fixed Inter font display issues in Instagram, Subito and other apps.<br>\n⚙️ Enhanced system stability and improved network connection.<br>\n🛡️ Updated to the September security patch.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 06:55:38 UTC"
+    },
+    {
+      "title": "Nothing Phone (2)",
+      "version": "Nothing OS V3.2-250708-2227",
+      "codename": "Pong",
+      "source_fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2505061805:user/release-keys",
+      "fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2507082227:user/release-keys|Nothing/PongEEA/Pong:15/AQ3A.240929.001/2507082227:user/release-keys|Nothing/PongIND/Pong:15/AQ3A.240929.001/2507082227:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/18bf3f8eb03e336eba7cc4c690bf5df6648a24ea.zip",
+      "changelog": "<h3>What's new in this update</h3>\n<b>New Feature</b><br>\n📶 Hotspot Manager: Easily manage devices connected to your hotspot.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n🖼️ Fixed rare issue causing the Gallery to crash when opening videos.<br>\n📱 Fixed issues where the apps’ UIs sometimes displayed incorrectly in certain situations.<br>\n🛡️ Updated to Android security patch for June.<br>\n🔧 Enhanced overall system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 06:55:35 UTC"
+    },
+    {
+      "title": "Nothing Phone (2)",
+      "version": "Nothing OS V3.0-250506-1805",
+      "codename": "Pong",
+      "source_fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2503041717:user/release-keys",
+      "fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2505061805:user/release-keys|Nothing/PongEEA/Pong:15/AQ3A.240929.001/2505061805:user/release-keys|Nothing/PongIND/Pong:15/AQ3A.240929.001/2505061805:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/8ebd2971dfa9244d5aba6e8d6d845da093c4e5cf.zip",
+      "changelog": "<h3>What's new in this update</h3>\n<b>New Feature</b><br>\n🔐 Introducing Privacy Space: Swipe right in the app drawer for quick and easy access to your secure zone.<br>\n🔑 You can now set a separate privacy password for both App Locker and Privacy Space.<br>\n🖼️ Introducing Nothing Gallery. The perfect blend of simplicity and elegance.<br>\n📳 Use the touch feedback toggle in Settings to disable the face unlock vibration for the lock screen.<br>\n<br>\n<b>Other Improvements</b><br>\n🚀 Optimised Launcher animations for seamless app launches.<br>\n📡 Stabilised cellular network connections.<br>\n📶 Enhanced WiFi and system stability.<br>\n🔔 Enhanced accessibility experience for Status Bar and Notification Centre.<br>\n🛡️ Updated to Android security patch for May.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 06:55:32 UTC"
+    }
+  ],
+  "Metroid": [
+    {
+      "title": "Nothing Phone (3)",
+      "version": "Nothing OS B4.1-260814-1733",
+      "codename": "Metroid",
+      "source_fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2606241457:user/release-keys",
+      "fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidEEA/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidIND/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidJPN/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidTUR/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/2a52b639be641edff7fb07fac5d645503acd14bc.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Essential Voice Enhancements</b><br>\n<br>\n🔡 You can now customise whether a long-press or a double-click of the Essential Key triggers translation or transcription while typing. Set it up in Settings > Intelligence toolkit > Essential Voice > Customise Essential Key.<br>\n⌨️ Quick switch between translation and transcription is now available by long-pressing the icon on the keyboard.<br>\n🎧 Essential Voice can now be triggered via the Ear (3) Super Mic while using the keyboard.<br>\n🎙️ Optimised Essential Voice for a smoother performance.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n✨ Gallery image editing now supports AI Eraser, helping instantly remove unwanted objects, pedestrians, or reflections with one tap.<br>\n🎚️ Optimised the volume slider animation effect at minimum volume for a more fluid feel.<br>\n🔗 Improved Bluetooth connection reliability during phone calls.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 06:45:15 UTC"
+    },
+    {
+      "title": "Nothing Phone (3)",
+      "version": "Nothing OS B4.1-260624-1457",
+      "codename": "Metroid",
+      "source_fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141846:user/release-keys",
+      "fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2606241457:user/release-keys|Nothing/MetroidEEA/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2606241457:user/release-keys|Nothing/MetroidIND/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2606241457:user/release-keys|Nothing/MetroidJPN/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2606241457:user/release-keys|Nothing/MetroidTUR/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2606241457:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/7c55ab51a8ab95f12adf1f8f1c1fe6e13bfc4840.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🎚️ Refined the volume slider to allow seamless and more precise adjustment when dragging.<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔉 Optimised audio playback to prevent unexpected volume fluctuations in certain scenarios.<br>\n📷 Enhanced overall camera stability.<br>\n🔗 Enhanced Bluetooth connection stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to June 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 06:45:14 UTC"
+    },
+    {
+      "title": "Nothing Phone (3)",
+      "version": "Nothing OS B4.1-260414-1846",
+      "codename": "Metroid",
+      "source_fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2602061135:user/release-keys",
+      "fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141846:user/release-keys|Nothing/MetroidEEA/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141846:user/release-keys|Nothing/MetroidIND/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141846:user/release-keys|Nothing/MetroidJPN/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141846:user/release-keys|Nothing/MetroidTUR/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141846:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/c9464d63886d68c64e39eddb960fbad4928165d7.zip",
+      "changelog": "<h3>Nothing OS 4.1</h3>\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>Essential Voice</b><br>\n<br>\nEssential Voice, a new AI-powered speech-to-text feature, lets you focus on your ideas efficiently. Tap the icon on the keyboard or long-press the Essential key when using the keyboard to start. Key features include:<br>\n🎙️ Cleans up transcriptions by filtering out interjections, filler words, and repetitions, while intelligently handling your self-corrections.<br>\n🔡 Translates on the fly by detecting your translation intent and inserting the translated text directly.<br>\n🗃️ Allows you to store personal phrases, like email addresses, and automatically inserts them when triggered by corresponding speech.<br>\n📑 Formats the text automatically by converting speech into structured lists, steps, or bullet points when identifying those contents from the speaker.<br>\n<br>\n<b>Notes:</b><br>\nFor more details about Essential Voice, please go to Settings > Intelligence toolkit > Essential Voice.<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as the lock screen, notification panel, and Glyph Interface, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n💬 Essential Notifications settings UI has been reworked with a cleaner look and descriptions for easier use.<br>\n🫧 Notifications that are frequently interacted with may be suggested to be set as Essential Notification.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📖 Optimised the prompt instructions when activating eSIM for better clarity and usage.<br>\n🤳 Enhanced video call stability to prevent stuttering when using certain third-party apps.<br>\n📱 Fixed some display errors in the notification panel and Quick Settings.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 06:45:12 UTC"
+    },
+    {
+      "title": "Nothing Phone (3)",
+      "version": "Nothing OS B4.0-260206-1135",
+      "codename": "Metroid",
+      "source_fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2512241229:user/release-keys",
+      "fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2602061135:user/release-keys|Nothing/MetroidEEA/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2602061135:user/release-keys|Nothing/MetroidIND/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2602061135:user/release-keys|Nothing/MetroidJPN/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2602061135:user/release-keys|Nothing/MetroidTUR/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2602061135:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/1758dbc5f0beabfbb31b3ebf042121be7f98af14.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n💡 Caller and charging progress can now be shown on the Glyph Matrix by shaking your phone. To enable this, go to Settings > Glyph Interface > Flip to Glyph and turn on the toggles.<br>\n📰 Added an Essential Notifications entry in Settings for easier access. Find it via Settings > Notifications > Essential Notifications.<br>\n🪀 Essential Apps now features a recommendation section in the widget library, providing quicker access to the Nothing Playground to discover AI-powered community creations.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n😎 Apps in private space are now available to be updated via Google Play Store.<br>\n⛅ Optimised the Weather widget location permission prompt to reduce disruption.<br>\n🔔 Optimised ringtone performance for better stability and compatibility with third-party apps.<br>\n📳 Optimised the stability of vibration and haptic feedback in certain scenarios.<br>\n🦻 Optimised the sound volume during calls with Oticon Zircon 2 miniRITE T hearing aids.<br>\n📷 Enhanced overall camera stability.<br>\n🧊 Fixed an issue where the Camera preview froze in Portrait mode when switching from Photo mode in certain scenarios.<br>\n📱 Fixed an issue where dual SIM ringtones could be mixed up in some cases.<br>\n🔉 Fixed an issue where speaker volume could be very low when switching from a Bluetooth call in some apps.<br>\n🎮 Fixed an occasional issue where game audio would not resume after returning from Recent apps.<br>\n📶 Fixed an issue where the mobile network icon incorrectly indicated no internet in certain cases.<br>\n🌐 Enhanced overall network stability.<br>\n⚙️ Enhanced overall system stability.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 06:45:10 UTC"
+    },
+    {
+      "title": "Nothing Phone (3)",
+      "version": "Nothing OS B4.0-251224-1229",
+      "codename": "Metroid",
+      "source_fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2511171909:user/release-keys",
+      "fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2512241229:user/release-keys|Nothing/MetroidEEA/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2512241229:user/release-keys|Nothing/MetroidIND/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2512241229:user/release-keys|Nothing/MetroidJPN/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2512241229:user/release-keys|Nothing/MetroidTUR/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2512241229:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/8b96a9ad74c44a089a86c213103c624ee74088ae.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Visual Enhancements</b><br>\n<br>\n🔋 Updated the battery percentage icon with the number displayed inside.<br>\n🌑 Optimised Extra dark mode for better visual adaptation to more scenarios.<br>\n🎚️ Improved the smoothness of the volume slider animation when adjusting volume via keys.<br>\n📼 Optimised sound wave and wheel animations in Recorder for a more fluid experience.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔔 Setting different ringtones for dual SIMs is now supported.<br>\n👀 Always-on Glyph Toy now will always stay on until manually turned off.<br>\n🚗 Fixed an issue where the in-car display could freeze when using Android Auto.<br>\n👖 Improved pocket mode detection logic for Glyph Interface.<br>\n📳 Optimised the vibration and haptic feedback across more scenarios.<br>\n🔒 Enhanced stability of lock screen and AOD for a better experience.<br>\n🤳 Improved Glyph mirror stability across more camera scenarios.<br>\n📹 Fixed an issue where the video encoding setting reverted from H.265 to H.264 when switching between shooting modes.<br>\n🚶 Fixed an issue where the Pedometer Progress widget continued animating on the lock screen while AOD was on.<br>\n🛜 Improved the searching speed for nearby available Wi-Fi networks.<br>\n⚙️ Enhanced overall system stability and smoothness.<br>\n🛡️ Updated to December security patch.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 06:45:09 UTC"
+    },
+    {
+      "title": "Nothing Phone (3)",
+      "version": "Nothing OS B4.0-251117-1909",
+      "codename": "Metroid",
+      "source_fingerprint": "Nothing/Metroid/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys",
+      "fingerprint": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2511171909:user/release-keys|Nothing/MetroidEEA/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2511171909:user/release-keys|Nothing/MetroidIND/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2511171909:user/release-keys|Nothing/MetroidJPN/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2511171909:user/release-keys|Nothing/MetroidTUR/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2511171909:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/f276b64163f41969ebdc98a19f9b172c6c845828.zip",
+      "changelog": "<h3>Nothing OS 4.0</h3>\nYou’re now upgrading to the official release of Nothing OS 4.0, powered by Android 16. Please back up your user data (photos, call logs, contacts, etc.) before proceeding with the upgrade. Take a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n🤖 Added AI usage dashboard. When using Essential Space, it automatically tracks AI large model usage for enhanced privacy transparency. Path: Settings > Intelligence toolkit > AI usage.<br>\n🕶️ Hiding apps directly from the home screen and App drawer is now supported. Find hidden apps via: Home screen > App drawer > Hidden icons.<br>\n🔍 Managing the search scope is now supported in App drawer to display results within a specific scope.<br>\n📏 Added more size options for Weather, Pedometer, Screen Time widgets.<br>\n↔️ 2x2 size is now supported for most QuickSettings tiles.<br>\n🟢 Pop-up view now supports two floating icons for easier switching.<br>\n⚡ System upgrade supports app optimisation to improve startup speed. Path: Settings > Apps > App optimisation.<br>\n<br>\n<b>Essential Innovations</b><br>\n<br>\n🛝 Introducing Playground (Alpha) — come to experience unique creations from the Community, including Essential Apps, Glyph Toys, Camera Presets, and EQ Profiles.<br>\n🪀 Essential Apps (Alpha) are now open for download. Enjoy the AI-powered, community-crafted apps that blend creativity with efficiency.<br>\n<br>\n<b>Notes:</b><br>\nFor more details of Playground & Essential Apps, please visit <a href=\"https://playground.nothing.tech\">https://playground.nothing.tech</a>.<br>\n<br>\n<b>Visual Enhancements</b><br>\n<br>\n🌠 Nothing app icons have been redesigned with an all-new, fresh look.<br>\n📶 Updated status bar icons with a more intuitive look.<br>\n🎴 Updated the lock screen password page with wallpaper blur effect.<br>\n⏱️ Added 2 new lock screen clock faces in Customisation.<br>\n🌑 Extra dark mode is now available, bringing a more immersive dark style. Path: Settings > Display > Dark theme > Extra dark mode.<br>\n🌌 Improved transition animations in certain scenarios for a smoother, more fluid experience.<br>\n<br>\n<b>Glyph Interface</b><br>\n<br>\nPhone (3) users, you told us the Glyphs could use more love, so we got to work. We're excited to bring key refinements to Flip to Glyph to make the feature more customisable and impactful for daily use, along with refreshed versions of popular legacy Glyph features, reimagined for the Glyph Matrix. We hope you enjoy them!\n<br><br>\n🕒 Always-On Glyph Toys will now be activated with Flip to Glyph instead of on timeout, ensuring you always have a quick and reliable gesture to enable the toy of your selection. <br>\n🤫 Added a setting to choose whether Flip to Glyph switches your phone to Silent or Vibrate mode.<br>\n⭐ Tooltip now clearly states that calls are not affected by the \"Essential Notifications only\" option under Flip to Glyph - no more guessing!<br>\n⚡While in Flip to Glyph, give your phone a quick shake while plugged in to instantly see the charging status. <br>\n<br>\n<b>Next, let's go over the two most-requested legacy features:</b><br>\n🔗 The long-awaited Glyph Progress is back, now using Android 16 Live Update notifications for improved compatibility with third-party apps. Enable it via Settings > Glyph Interface > Glyph Progress.<br>\n⏳ Glyph Timer returns with a refreshed animation. Add it as a Quick Settings tile or enable it manually via Settings > Glyph Interface > Glyph Timer.<br>\n<br>\n<b>Last but not least, some features we at Nothing really wanted ourselves:</b><br>\n🌚 Introducing a new Moon Phase toy, showing exactly how the moon will look tonight.<br>\n🛝 Tired of the built-in toys? A new button on the “Manage Glyph Toys” page takes you directly to community-made creations on Nothing Playground.<br>\n📸 The Glyph Mirror toy will now also save a matrix-styled photo. Déjà vu? <br>\n👖 The Glyph Interface will now temporarily disable when you put your phone in your pocket. No notifications are that Essential that they need to glow through your pants. <br>\n<br>\nWe hope at least some of the features above can make their way to your daily routine, and please keep the constructive feedback coming!<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 06:45:07 UTC"
+    },
+    {
+      "title": "Nothing Phone (3)",
+      "version": "Nothing OS V3.5-250923-1421",
+      "codename": "Metroid",
+      "source_fingerprint": "Nothing/Metroid/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys",
+      "fingerprint": "Nothing/Metroid/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys|Nothing/MetroidEEA/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys|Nothing/MetroidIND/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys|Nothing/MetroidJPN/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys|Nothing/MetroidTUR/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/366bed6e3522d281d66cad74fca25ce75b7e79d2.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Camera Bug Fix</b>\n<br>\n🎨 Fix an issue with presets causing the Camera app to crash unexpectedly.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 06:45:05 UTC"
+    },
+    {
+      "title": "Nothing Phone (3)",
+      "version": "Nothing OS V3.5-250829-1700",
+      "codename": "Metroid",
+      "source_fingerprint": "Nothing/Metroid/Metroid:15/AQ3A.250226.002/2507112047:user/release-keys",
+      "fingerprint": "Nothing/Metroid/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys|Nothing/MetroidEEA/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys|Nothing/MetroidIND/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys|Nothing/MetroidJPN/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys|Nothing/MetroidTUR/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/28889f16775447e96bb6d0b44301deac323d3f8c.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Glyph Interface</b><br><br>\n🧭 Added two new Glyph Toys — Compass and Feed The Fly. Find them under Settings > Glyph Interface > Glyph Toys > Manage Glyph Toys.<br>\n🔮 Enabled Glyph Mirror in Camera. Works in photo or video on any rear lens. See your shot in real time. Just swipe down in the viewfinder to toggle.<br>\n<br>\n<b>Camera Enhancements</b><br><br>\n🎨 Introduced the new “Stretch” preset, created in collaboration with photographer Jordan Hemingway. The preset features rich shadows and extended highlights for unique results.<br>\n📸 Further improved responsiveness and photo quality when repeatedly tapping the shutter for continuous shooting.<br>\n⏱️ Reduced shutter lag so captured photos now more closely match the preview.<br>\n🎞️ Enhanced colour consistency across all rear cameras.<br>\n🔍 Improved clarity for photos taken at 6x to 60x zoom.<br>\n🌅 Optimised HDR for more natural brightness and detail in portraits and other scenes.<br>\n📹 Enhanced camera effects in third-party apps, including more accurate colours on Messenger video calls and better video quality in other apps.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br><br>\n📳 Adjusted vibration intensity for Generative mode for ringtones.<br>\n🎵 Fixed occasional playback errors with Generative mode for ringtones.<br>\n⏱️ Fixed an issue where the Stopwatch toy would unexpectedly shut off.<br>\n📱 Resolved a rare bug that caused WhatsApp message notifications to display incorrectly on the Glyph Matrix.<br>\n🖼️ Fixed image display issues when resizing the Photo widget to 4x2.<br>\n💿 Corrected album cover and metadata display errors in the Media Player widget during playback.<br>\n🔄 Fixed rare cases where Quick Settings tiles displayed out of order.<br>\n🎮 Fixed delayed touch response while playing Minecraft.<br>\n📞 Fixed occasional call noise issues.<br>\n🔋 Improved system stability and Wi-Fi reliability.<br>\n🔒 Updated security patch to September 2025.<br>\n<br>\n<b>Notes:</b><br>\nYour device may temporarily heat up and consume more power during the update. This will return to normal shortly after the installation.<br>",
+      "extracted_at": "2026-09-06 06:45:03 UTC"
+    }
+  ],
+  "Asteroids": [
+    {
+      "title": "Nothing Phone (3a) Series",
+      "version": "Nothing OS B4.1-260810-1153",
+      "codename": "Asteroids",
+      "source_fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys",
+      "fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys|Nothing/AsteroidsEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys|Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys|Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys|Nothing/AsteroidsPro/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys|Nothing/AsteroidsProIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys|Nothing/AsteroidsTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2608101153:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/cd06a8e76f79f0fa02b826f8fb8aa4a4bd796429.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📸 Improved flash torch reliability for a more stable recording experience.<br>\n🔍 Fixed an occasional issue where the search bar could disappear from the home screen.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n📡 This update includes an adjustment related to Specific Absorption Rate (SAR) in accordance with applicable regulatory requirements. We recommend updating your device to the latest software version.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:05:15 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Series",
+      "version": "Nothing OS B4.1-260618-1048",
+      "codename": "Asteroids",
+      "source_fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys",
+      "fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys|Nothing/AsteroidsEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys|Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys|Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys|Nothing/AsteroidsPro/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys|Nothing/AsteroidsProIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys|Nothing/AsteroidsTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181048:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/76572cca2e8236e27d80cbae9358ac38ee501f28.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n📱 Fixed some display glitches across various cases for better consistency.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to June 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:02:58 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Series",
+      "version": "Nothing OS B4.1-260414-1749",
+      "codename": "Asteroids",
+      "source_fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys",
+      "fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/AsteroidsEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/AsteroidsPro/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/AsteroidsProIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/AsteroidsTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/4657436c73067dadfcfef1be89fa1b97f79ec97e.zip",
+      "changelog": "<h3>Nothing OS 4.1</h3>\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as the lock screen, notification panel, and Glyph Interface, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n💬 Essential Notifications settings UI has been reworked with a cleaner look and descriptions for easier use.<br>\n🫧 Notifications that are frequently interacted with may be suggested to be set as Essential Notification.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🍃 Optimised the stability of Time-lapse mode shooting in the Camera app.<br>\n🔭 Fixed an issue where the SuperRes zoom frame could remain on the screen when switching presets.<br>\n📱 Fixed some display errors in the notification panel and Quick Settings.<br>\n⚙️ Enhanced overall system stability and performance.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:02:54 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Series",
+      "version": "Nothing OS B4.0-260225-1824",
+      "codename": "Asteroids",
+      "source_fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys",
+      "fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsPro/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsProIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/1d6821e76bcb9c3bb525dd9c2e6b4b1d527008e4.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Camera Enhancements</b><br>\n<br>\n🖼️ Improved watermark consistency between the preview and final photos.<br>\n🌃 Improved colour balance for rear-camera Night mode at 4× zoom and above.<br>\n📹 Optimised preview and recording stability at certain zoom levels in Video mode.<br>\n📷 Enhanced overall camera stability.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📰 Added an Essential Notifications entry in Settings for easier access. Find it via Settings > Notifications > Essential Notifications.<br>\n🪀 Essential Apps now features a recommendation section in the widget library, providing quicker access to the Nothing Playground to discover AI-powered community creations.<br>\n😎 Apps in private space are now available to be updated via Google Play Store.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to March 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:02:50 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Series",
+      "version": "Nothing OS B4.0-251229-2335",
+      "codename": "Asteroids",
+      "source_fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys",
+      "fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsPro/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsProIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/9b268ebcca32a5d1736b68e914cfadb3705e3cbd.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Visual Enhancements</b><br>\n<br>\n🔋 Updated the battery percentage icon with the number displayed inside.<br>\n🎚️ Improved the smoothness of the volume slider animation when adjusting volume via keys.<br>\n🌑 Optimised Extra dark mode for better visual adaptation to more scenarios.<br>\n📼 Optimised sound wave and wheel animations in Recorder for a more fluid experience.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔔 Setting different ringtones for dual SIMs is now supported.<br>\n📳 Optimised the vibration and haptic feedback across more scenarios.<br>\n🦻 Optimised the sound volume during calls with Oticon Zircon 2 miniRITE T hearing aids.<br>\n📹 Optimised power consumption during rear camera video recording.<br>\n🚶 Enhanced the stability of the Pedometer widgets.<br>\n📱 Fixed display issues in the status bar, Quick Settings, and notifications for improved visual consistency.<br>\n🤳 Fixed an issue where faces appeared blurred when shooting at close range with the front camera.<br>\n🖼️ Fixed an issue where the watermark displayed an incorrect focal length or location in photos.<br>\n📷 Improved overall Camera stability.<br>\n📶 Enhanced overall network stability.<br>\n⚙️ Enhanced overall system stability and smoothness.<br>\n🌐 Updated Google Mobile Services (GMS) to the December 2025 version.<br>\n🛡️ Updated to December 2025 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:02:45 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Series",
+      "version": "Nothing OS B4.0-251118-1551",
+      "codename": "Asteroids",
+      "source_fingerprint": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys",
+      "fingerprint": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys|Nothing/AsteroidsEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys|Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys|Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys|Nothing/AsteroidsPro/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys|Nothing/AsteroidsProIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys|Nothing/AsteroidsTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2511181551:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/57c73fc36c537c04005cebe08bba0cd91d211f3a.zip",
+      "changelog": "<h3>Nothing OS 4.0</h3>\nYou’re now upgrading to the official release of Nothing OS 4.0, powered by Android 16. Please back up your user data (photos, call logs, contacts, etc.) before proceeding with the upgrade. Take a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n🤖 Added AI usage dashboard. When using Essential Space, it automatically tracks AI large model usage for enhanced privacy transparency. Path: Settings > Intelligence toolkit > AI usage.<br>\n🕶️ Hiding apps directly from the home screen and App drawer is now supported. Find hidden apps via: Home screen > App drawer > Hidden icons.<br>\n🔍 Managing the search scope is now supported in App drawer to display results within a specific scope.<br>\n📏 Added more size options for Weather, Pedometer, Screen Time widgets.<br>\n↔️ 2x2 size is now supported for most QuickSettings tiles.<br>\n🟢 Pop-up view now supports two floating icons for easier switching.<br>\n⚡ System upgrade supports app optimisation to improve startup speed. Path: Settings > Apps > App optimisation.<br>\n<br>\n<b>Essential Innovations</b><br>\n<br>\n📝 Flip to Record now lets you take photos and add notes while recording, all stored together for easy access in Essential Space.<br>\n🛝 Introducing Playground (Alpha) — come to experience unique creations from the Community, including Essential Apps, Camera Presets, and EQ Profiles.<br>\n🪀 Essential Apps (Alpha) are now open for download. Enjoy the AI-powered, community-crafted apps that blend creativity with efficiency.<br>\n<br>\n<b>Notes:</b><br>\nTo enjoy the improved Flip to Record feature, please update Essential Space to the latest version in Google Play, which will be rolled out gradually.<br>\nFor more details of Playground & Essential Apps, please visit <a href=\"https://playground.nothing.tech\">https://playground.nothing.tech</a>.<br>\n<br>\n<b>Visual Enhancements</b><br>\n<br>\n🌠 Nothing app icons have been redesigned with an all-new, fresh look.<br>\n📶 Updated status bar icons with a more intuitive look.<br>\n⏱️ Added 2 new lock screen clock faces in Customisation.<br>\n🌑 Extra dark mode is now available, bringing a more immersive dark style. Path: Settings > Display > Dark theme > Extra dark mode.<br>\n🌌 Improved transition animations in certain scenarios for a smoother, more fluid experience.<br>\n<br>\n<b>Glyph Interface</b><br>\n<br>\n🤫 Added a setting to choose whether Flip to Glyph switches your phone to Silent or Vibrate mode.<br>\n💡 Glyph Progress now uses Android 16 Live Update notifications for improved compatibility with third-party apps.<br>\n<br>\n<b>Camera Enhancements</b><br>\n<br>\n🎛️ Presets: Updated default list with new popular styles.<br>\n🎨 Filters: Added intensity adjustment and exclusive 'Stretch' styles.<br>\n🎞️ Motion Photos: Supports longer recording times and audio capture.<br>\n🖼️ Watermarks: Introduced new Nothing brand watermarks and artistic frames.<br>\n📱 Interface: Refreshed camera UI design with optimised interactions.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 07:02:40 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Series",
+      "version": "Nothing OS V3.2-251013-1406",
+      "codename": "Asteroids",
+      "source_fingerprint": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys",
+      "fingerprint": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys|Nothing/AsteroidsEEA/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys|Nothing/AsteroidsIND/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys|Nothing/AsteroidsJPN/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys|Nothing/AsteroidsPro/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys|Nothing/AsteroidsProIND/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys|Nothing/AsteroidsTUR/Asteroids:15/AQ3A.241015.001/2510131406:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/a83df4d8e0f6abba0cf12925a701ebf9c0e41072.zip",
+      "changelog": "<h3>What's New in This Update</h3><br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n💡 Fixed the issue where the Glyph Interface didn’t turn off properly after using Flip to Record.<br>\n💬 Optimised the Phone Call Recording Notification to appear only during the first call for a better experience.<br>\n<br>\n<b>Notes:</b><br>\nPhone Call Recording may not be available in all regions due to local regulations.<br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:02:36 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Series",
+      "version": "Nothing OS V3.1-250610-1841",
+      "codename": "Asteroids",
+      "source_fingerprint": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2503021856:user/release-keys",
+      "fingerprint": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsEEA/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsIND/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsJPN/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsPro/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsProIND/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsTUR/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/a0d44359189d797802d63139a5ed9f2d89b44a40.zip",
+      "changelog": "<h3>What's new in this update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n📶 Enhanced Wi-Fi connection stability.<br>\n📡 Stabilised cellular network connections.<br>\n⚙️ Enhanced system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 07:02:31 UTC"
+    }
+  ],
+  "PacmanPro": [
+    {
+      "title": "Nothing Phone (2a) Plus",
+      "version": "Nothing OS B4.1-260813-0941",
+      "codename": "PacmanPro",
+      "source_fingerprint": "Nothing/PacmanProIND/PacmanPro:16/BP2A.250605.031.A3/2606091926:user/release-keys",
+      "fingerprint": "Nothing/PacmanPro/PacmanPro:16/BP2A.250605.031.A3/2608130941:user/release-keys|Nothing/PacmanProEEA/PacmanPro:16/BP2A.250605.031.A3/2608130941:user/release-keys|Nothing/PacmanProIND/PacmanPro:16/BP2A.250605.031.A3/2608130941:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/6c29642c2b85dfd5c533bc4e954b79909ec7c02e.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Optimised display refresh rate stability in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:30:22 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a) Plus",
+      "version": "Nothing OS B4.1-260609-1926",
+      "codename": "PacmanPro",
+      "source_fingerprint": "Nothing/PacmanProIND/PacmanPro:16/BP2A.250605.031.A3/2604142142:user/release-keys",
+      "fingerprint": "Nothing/PacmanPro/PacmanPro:16/BP2A.250605.031.A3/2606091926:user/release-keys|Nothing/PacmanProEEA/PacmanPro:16/BP2A.250605.031.A3/2606091926:user/release-keys|Nothing/PacmanProIND/PacmanPro:16/BP2A.250605.031.A3/2606091926:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/b9094a25e3eb73313f1d9f85f4e066e7a65d9ce3.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to June 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:22:18 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a) Plus",
+      "version": "Nothing OS B4.0-260225-2039",
+      "codename": "PacmanPro",
+      "source_fingerprint": "Nothing/PacmanProIND/PacmanPro:16/BP2A.250605.031.A3/2512302052:user/release-keys",
+      "fingerprint": "Nothing/PacmanPro/PacmanPro:16/BP2A.250605.031.A3/2602252039:user/release-keys|Nothing/PacmanProEEA/PacmanPro:16/BP2A.250605.031.A3/2602252039:user/release-keys|Nothing/PacmanProIND/PacmanPro:16/BP2A.250605.031.A3/2602252039:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/5520868355411870b767d93c4b33e86edae0cf65.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n📰 Added an Essential Notifications entry in Settings for easier access. Find it via Settings > Notifications > Essential Notifications.<br>\n🪀 Essential Apps now features a recommendation section in the widget library, providing quicker access to the Nothing Playground to discover AI-powered community creations.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⛅ Optimised the Weather widget location permission prompt to reduce disruption.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to March 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:20:28 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a) Plus",
+      "version": "Nothing OS B4.0-251230-2052",
+      "codename": "PacmanPro",
+      "source_fingerprint": "Nothing/PacmanProIND/PacmanPro:16/BP2A.250605.031.A3/2511201812:user/release-keys",
+      "fingerprint": "Nothing/PacmanPro/PacmanPro:16/BP2A.250605.031.A3/2512302052:user/release-keys|Nothing/PacmanProEEA/PacmanPro:16/BP2A.250605.031.A3/2512302052:user/release-keys|Nothing/PacmanProIND/PacmanPro:16/BP2A.250605.031.A3/2512302052:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/172acc24a95932533805afc90aa61c19d5bc0253.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Visual Enhancements</b><br>\n<br>\n🔋 Updated the battery percentage icon with the number displayed inside.<br>\n🎚️ Improved the smoothness of the volume slider animation when adjusting volume via keys.<br>\n🌑 Optimised Extra dark mode for better visual adaptation to more scenarios.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔔 Setting different ringtones for dual SIMs is now supported.<br>\n📳 Optimised the vibration and haptic feedback across more scenarios.<br>\nℹ️ Optimised the installation hint when apps are already in the private space.<br>\n📷 Improved preview stability in Photo mode during zoom switching.<br>\n📱 Fixed display issues in the status bar, Quick Settings, and notifications for improved visual consistency.<br>\n👆 Fixed an issue where the back gesture preview stopped working after switching gesture navigation modes.<br>\n🛜 Improved the searching speed for nearby available Wi-Fi networks.<br>\n⚙️ Enhanced overall system stability and smoothness.<br>\n🌐 Updated Google Mobile Services (GMS) to the December 2025 version.<br>\n🛡️ Updated to December 2025 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:18:39 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a) Plus",
+      "version": "Nothing OS V3.2-250904-1704",
+      "codename": "PacmanPro",
+      "source_fingerprint": "Nothing/PacmanProIND/PacmanPro:15/AP3A.240905.015.A2/2507311640:user/release-keys",
+      "fingerprint": "Nothing/PacmanPro/PacmanPro:15/AP3A.240905.015.A2/2509041704:user/release-keys|Nothing/PacmanProEEA/PacmanPro:15/AP3A.240905.015.A2/2509041704:user/release-keys|Nothing/PacmanProIND/PacmanPro:15/AP3A.240905.015.A2/2509041704:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/ea0572e6c8c298e6ecc218088786eb0f3e3718c4.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🖼️ Fixed the screen flicker issue when viewing HDR photos in Gallery.<br>\n🛡️ Updated to September security patch.<br>\n⚙️ Enhanced system stability and optimised system performance.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 07:16:29 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a) Plus",
+      "version": "Nothing OS V3.2-250731-1640",
+      "codename": "PacmanPro",
+      "source_fingerprint": "Nothing/PacmanProIND/PacmanPro:15/AP3A.240905.015.A2/2506091917:user/release-keys",
+      "fingerprint": "Nothing/PacmanPro/PacmanPro:15/AP3A.240905.015.A2/2507311640:user/release-keys|Nothing/PacmanProEEA/PacmanPro:15/AP3A.240905.015.A2/2507311640:user/release-keys|Nothing/PacmanProIND/PacmanPro:15/AP3A.240905.015.A2/2507311640:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/a758d5fe45d11e19421152927afbc1b219406665.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Camera Enhancements</b><br>\n<br>\n⚙️ Added option to select the default album for preview images in the Camera app settings.<br>\n📷 Enhanced stability of the Camera.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⌚ Fixed issue causing rapid battery drain when certain watches are connected to the phone.<br>\n🔗 Resolved Telegram Bluetooth call abnormalities when connected with some watches and earbuds.<br>\n🔤 Fixed display abnormalities of some texts in Instagram, Subito and similar apps when using Inter font.<br>\n🛡️ Updated August security patch.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 07:09:58 UTC"
+    }
+  ],
+  "Pacman": [
+    {
+      "title": "Nothing Phone (2a)",
+      "version": "Nothing OS B4.1-260813-0941",
+      "codename": "Pacman",
+      "source_fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2606091925:user/release-keys",
+      "fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2608130941:user/release-keys|Nothing/PacmanEEA/Pacman:16/BP2A.250605.031.A3/2608130941:user/release-keys|Nothing/PacmanIND/Pacman:16/BP2A.250605.031.A3/2608130941:user/release-keys|Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2608130941:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/ffee55e4812b4e1907529a19d579ca981ab007c6.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Optimised display refresh rate stability in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:13:02 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a)",
+      "version": "Nothing OS B4.1-260609-1925",
+      "codename": "Pacman",
+      "source_fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2604142141:user/release-keys",
+      "fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2606091925:user/release-keys|Nothing/PacmanEEA/Pacman:16/BP2A.250605.031.A3/2606091925:user/release-keys|Nothing/PacmanIND/Pacman:16/BP2A.250605.031.A3/2606091925:user/release-keys|Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2606091925:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/f51817177faff37c4a6aa0be04f7ffe690f79150.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to June 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:12:59 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a)",
+      "version": "Nothing OS B4.1-260414-2141",
+      "codename": "Pacman",
+      "source_fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys",
+      "fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2604142141:user/release-keys|Nothing/PacmanEEA/Pacman:16/BP2A.250605.031.A3/2604142141:user/release-keys|Nothing/PacmanIND/Pacman:16/BP2A.250605.031.A3/2604142141:user/release-keys|Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2604142141:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/b5934c6be2b4451492c784e284d7528437be506e.zip",
+      "changelog": "<h3>Nothing OS 4.1</h3>\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as the lock screen, notification panel, and Glyph Interface, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n💬 Essential Notifications settings UI has been reworked with a cleaner look and descriptions for easier use.<br>\n🫧 Notifications that are frequently interacted with may be suggested to be set as Essential Notification.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📷 Improved preset stability to ensure the correct zoom level is maintained when re-entering the Camera.<br>\n🖼️ Fixed an issue where the Camera app could crash when applying certain imported presets.<br>\n📱 Fixed some display errors in the notification panel and Quick Settings.<br>\n⚙️ Enhanced overall system stability and performance.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:12:57 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a)",
+      "version": "Nothing OS B4.0-260225-1817",
+      "codename": "Pacman",
+      "source_fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2512302052:user/release-keys",
+      "fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys|Nothing/PacmanEEA/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys|Nothing/PacmanIND/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys|Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/b5aa3a83281b787e766389476743d6fd883b120f.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n📰 Added an Essential Notifications entry in Settings for easier access. Find it via Settings > Notifications > Essential Notifications.<br>\n🪀 Essential Apps now features a recommendation section in the widget library, providing quicker access to the Nothing Playground to discover AI-powered community creations.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⛅ Optimised the Weather widget location permission prompt to reduce disruption.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to March 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:12:55 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a)",
+      "version": "Nothing OS B4.0-251230-2052",
+      "codename": "Pacman",
+      "source_fingerprint": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys",
+      "fingerprint": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2512302052:user/release-keys|Nothing/PacmanEEA/Pacman:16/BP2A.250605.031.A3/2512302052:user/release-keys|Nothing/PacmanIND/Pacman:16/BP2A.250605.031.A3/2512302052:user/release-keys|Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2512302052:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/47ff66624b80bbb2ee1d85cf86f238742c4b3c9d.zip",
+      "changelog": "<h3>Nothing OS 4.0</h3>\nYou’re now upgrading to the official release of Nothing OS 4.0, powered by Android 16. Please back up your user data (photos, call logs, contacts, etc.) before proceeding with the upgrade. Take a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n🕶️ Hiding apps directly from the home screen and App drawer is now supported. Find hidden apps via: Home screen > App drawer > Hidden icons.<br>\n🔍 Managing the search scope is now supported in App drawer to display results within a specific scope.<br>\n📏 Added more size options for Weather, Pedometer, Screen Time widgets.<br>\n↔️ 2x2 size is now supported for most QuickSettings tiles.<br>\n🟢 Pop-up view now supports two floating icons for easier switching.<br>\n🔔 Setting different ringtones for dual SIMs is now supported.<br>\n⚡ System upgrade supports app optimisation to improve startup speed. Path: Settings > Apps > App optimisation.<br>\n<br>\n<b>Essential Innovations</b><br>\n<br>\n🛝 Introducing Playground (Alpha) — come to experience unique creations from the Community, including Essential Apps, Camera Presets, and EQ Profiles.<br>\n🪀 Essential Apps (Alpha) are now open for download. Enjoy the AI-powered, community-crafted apps that blend creativity with efficiency.<br>\n<br>\n<b>Notes:</b><br>\nFor more details of Playground & Essential Apps, please visit <a href=\"https://playground.nothing.tech\">https://playground.nothing.tech</a>.<br>\n<br>\n<b>Visual Enhancements</b><br>\n<br>\n🌠 Nothing app icons have been redesigned with an all-new, fresh look.<br>\n📶 Updated status bar icons with a more intuitive look.<br>\n⏱️ Added 2 new lock screen clock faces in Customisation.<br>\n🌑 Extra dark mode is now available, bringing a more immersive dark style. Path: Settings > Display > Dark theme > Extra dark mode.<br>\n<br>\n<b>Glyph Interface</b><br>\n<br>\n🤫 Added a setting to choose whether Flip to Glyph switches your phone to Silent or Vibrate mode.<br>\n💡 Glyph Progress now uses Android 16 Live Update notifications for improved compatibility with third-party apps.<br>\n<br>\n<b>Camera Enhancements</b><br>\n<br>\n🎛️ Presets: Updated default list with new popular styles.<br>\n🎨 Filters: Added intensity adjustment and exclusive 'Stretch' styles.<br>\n🎞️ Motion Photos: Supports longer recording times and audio capture.<br>\n🖼️ Watermarks: Introduced new Nothing brand watermarks and artistic frames.<br>\n📱 Interface: Refreshed camera UI design with optimised interactions.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 07:12:52 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a)",
+      "version": "Nothing OS V3.2-250904-1648",
+      "codename": "Pacman",
+      "source_fingerprint": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys",
+      "fingerprint": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys|Nothing/PacmanEEA/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys|Nothing/PacmanIND/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys|Nothing/PacmanJPN/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/2229ecaa33df35f0f4174271bb2291aabd7f5811.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Enhanced system stability and optimised system performance.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 07:12:50 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a)",
+      "version": "Nothing OS V3.2-250815-1642",
+      "codename": "Pacman",
+      "source_fingerprint": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2506201021:user/release-keys",
+      "fingerprint": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys|Nothing/PacmanEEA/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys|Nothing/PacmanIND/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys|Nothing/PacmanJPN/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/2359cd4c93d3a3c5fc703e0124dfc74069ca9ca0.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Widgets</b><br>\n<br>\n📱 Shared widgets now support more sticker types.<br>\n🚶 Pedometer and Screentime now support sharing.<br>\n⛅ Location Access prompt in Weather widget is optimised.<br>\n<br>\n<b>Camera</b><br>\n<br>\n📷 Enhanced stability of the Camera.<br>\n✅ Added default gallery option for previewing photos in Camera app settings.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🛠️ Improved the stability of Pop-up View.<br>\n🔧 Fixed tiles display errors in Quick Settings.<br>\n🗃️ Resolved the issue of failing to open PDFs in Cloned apps.<br>\n📊 Optimised the display of VoNR icon in the status bar.<br>\n🔋 Optimised battery usage when connecting watches to the phone.<br>\n🔤 Fixed Inter font display issues in Instagram, Subito and other apps.<br>\n⚙️ Enhanced system stability and optimised system performance.<br>\n🛡️ Updated to September security patch.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 07:12:49 UTC"
+    },
+    {
+      "title": "Nothing Phone (2a)",
+      "version": "Nothing OS V3.2-250620-1021",
+      "codename": "Pacman",
+      "source_fingerprint": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2504291922:user/release-keys",
+      "fingerprint": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2506201021:user/release-keys|Nothing/PacmanEEA/Pacman:15/AP3A.240905.015.A2/2506201021:user/release-keys|Nothing/PacmanIND/Pacman:15/AP3A.240905.015.A2/2506201021:user/release-keys|Nothing/PacmanJPN/Pacman:15/AP3A.240905.015.A2/2506201021:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/e2f0d29a68bb5316dcc9de92a0c0954da33c2a2c.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n🔒 You can now reset private space password using lock screen password in Reset options.<br>\n🛡️ Updated to June security patch.<br>\n📞 Fixed issue where Bluetooth devices failed to connect during calls on Telegram.<br>\n🔋 Fixed high Wi-Fi power consumption issue in rare scenarios.<br>\n⚙️ Enhanced system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 07:12:47 UTC"
+    }
+  ],
+  "SuperContra": [
+    {
+      "title": "Nothing Phone (4b)",
+      "version": "Nothing OS B4.1-260811-1606",
+      "codename": "SuperContra",
+      "source_fingerprint": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2607031843:user/release-keys",
+      "fingerprint": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraEEA/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraIND/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraJPN/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraTUR/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/60cc94aeae79e3afa31013237603a3ba603ed380.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Camera Enhancements</b><br>\n<br>\n🤳 Improved Dual-view Video by adding support for the recording light indicator.<br>\n📹 Optimised auto exposure stability in the preview when recording with the front camera.<br>\n🌃 Improved image clarity and colour balance for shots in night scenes.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🎙️ Essential Voice can now be triggered via the Ear (3) Super Mic while using the keyboard.<br>\n🔍 Fixed an occasional issue where the search bar could disappear from the home screen after unlocking.<br>\n🔔 Fixed an issue where incoming ringtones from third-party apps could be heard through in-game voice chat.<br>\n⚡ Enhanced charging reliability for a more stable experience.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:32:18 UTC"
+    }
+  ],
+  "Galaga": [
+    {
+      "title": "CMF Phone 2 Pro",
+      "version": "Nothing OS B4.1-260812-1729",
+      "codename": "Galaga",
+      "source_fingerprint": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys",
+      "fingerprint": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/261736f1b93527c68dc67c17e7e610f3d4c98553.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Improved lock screen stability for a more reliable unlocking experience.<br>\n💬 Fixed an issue where third-party notifications could crash unexpectedly in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:42:00 UTC"
+    },
+    {
+      "title": "CMF Phone 2 Pro",
+      "version": "Nothing OS B4.1-260415-1710",
+      "codename": "Galaga",
+      "source_fingerprint": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys",
+      "fingerprint": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/18b9fd4d0a027ba35c7d549ab9efd4256159c208.zip",
+      "changelog": "<h3>Nothing OS 4.1</h3>\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as Always-on display, notification panel, and the status bar, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n🎮 The Games app is now live, integrating various tap-to-play mini-games for relaxing. Discover it in the app drawer or on the homescreen.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📷 Improved overall camera stability.<br>\n🚗 Improved wired charging compatibility with certain vehicle models.<br>\n📱 Fixed some display errors in the notification panel and Quick Settings.<br>\n⚙️ Enhanced overall system stability and performance.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:41:56 UTC"
+    },
+    {
+      "title": "CMF Phone 2 Pro",
+      "version": "Nothing OS V3.2-251103-2121",
+      "codename": "Galaga",
+      "source_fingerprint": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2505261427:user/release-keys",
+      "fingerprint": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys|Nothing/GalagaEEA/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys|Nothing/GalagaIND/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys|Nothing/GalagaJPN/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys|Nothing/GalagaTUR/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/49b6d63a836a21160bcb1e81329178935e1a73b2.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Camera Enhancements</b><br>\n<br>\n🎨 Optimised the HDR algorithm for more balanced tones and improved contrast.<br>\n🔍 Enhanced camera focus accuracy for fingerprint recognition in certain third-party apps.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:41:53 UTC"
+    }
+  ],
+  "Galaxian": [
+    {
+      "title": "Nothing Phone (3a) Lite",
+      "version": "Nothing OS B4.1-260702-1815",
+      "codename": "Galaxian",
+      "source_fingerprint": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2603031710:user/release-keys",
+      "fingerprint": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/b16867079fe6353b4db2deefe939459dd0e62d8c.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n📱 Fixed some display glitches across various cases for better consistency.<br>\n⚙️ Enhanced overall system stability and responsiveness.<br>\n🛡️ Updated to July 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:48:19 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Lite",
+      "version": "Nothing OS B4.1-260702-1815",
+      "codename": "Galaxian",
+      "source_fingerprint": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys",
+      "fingerprint": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/3095bfeb0a93fa915e21e8bcb1b50b0e4624400b.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n📱 Fixed some display glitches across various cases for better consistency.<br>\n⚙️ Enhanced overall system stability and responsiveness.<br>\n🛡️ Updated to July 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:52:07 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Lite",
+      "version": "Nothing OS B4.1-260508-1508",
+      "codename": "Galaxian",
+      "source_fingerprint": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2601161904:user/release-keys",
+      "fingerprint": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/a25aff7634a64e0f7ef5f6a8c3c24b4c88224adf.zip",
+      "changelog": "<h3>Nothing OS 4.1</h3>\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as Always-on display, notification panel, and the status bar, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n💬 Essential Notifications settings UI has been reworked with a cleaner look and descriptions for easier use.<br>\n🫧 Notifications that are frequently interacted with may be suggested to be set as Essential Notification.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📷 Enhanced overall camera stability.<br>\n💬 Optimised the notifications and the lock screen with more stable performance in certain scenarios.<br>\n⚙️ Enhanced overall system stability and responsiveness in certain scenarios.<br>\n📱 Fixed some display errors across various cases for better consistency.<br>\n🛡️ Updated to May 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:52:04 UTC"
+    },
+    {
+      "title": "Nothing Phone (3a) Lite",
+      "version": "Nothing OS V3.5-251222-1801",
+      "codename": "Galaxian",
+      "source_fingerprint": "Nothing/Galaxian/Galaxian:15/AP3A.240905.015.A2/2510291642:user/release-keys",
+      "fingerprint": "Nothing/Galaxian/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys|Nothing/GalaxianEEA/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys|Nothing/GalaxianIND/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys|Nothing/GalaxianJPN/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys|Nothing/GalaxianTUR/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/8bf2f433bd8834f1e4f02b017fbec475ec42d21f.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Fixed an issue that prevented GCash and myAIS apps from working properly.<br>\n⚙️ Enhanced overall system stability.<br>\n🌐 Updated Google Mobile Services (GMS) to the December 2025 version.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 07:48:14 UTC"
+    }
+  ],
+  "Tetris": [
+    {
+      "title": "CMF Phone 1",
+      "version": "Nothing OS B4.1-260812-1726",
+      "codename": "Tetris",
+      "source_fingerprint": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys",
+      "fingerprint": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/dffba13386352dfbd57fa4cdf51f8062a7dc0a59.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Improved lock screen stability for a more reliable unlocking experience.<br>\n💬 Fixed an issue where third-party notifications could crash unexpectedly in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:53:43 UTC"
+    },
+    {
+      "title": "CMF Phone 1",
+      "version": "Nothing OS B4.1-260415-1709",
+      "codename": "Tetris",
+      "source_fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2509251843:user/release-keys",
+      "fingerprint": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/35da363058c387712591b7b386191ad1a8f27695.zip",
+      "changelog": "<h3>Nothing OS 4.1</h3>\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as Always-on display, notification panel, and the status bar, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n🎮 The Games app is now live, integrating various tap-to-play mini-games for relaxing. Discover it in the app drawer or on the homescreen.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📷 Improved overall camera stability.<br>\n🚗 Improved wired charging compatibility with certain vehicle models.<br>\n📱 Fixed some display errors in the notification panel and Quick Settings.<br>\n⚙️ Enhanced overall system stability and performance.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:53:40 UTC"
+    },
+    {
+      "title": "CMF Phone 1",
+      "version": "Nothing OS V3.2-250925-1843",
+      "codename": "Tetris",
+      "source_fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2507231800:user/release-keys",
+      "fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2509251843:user/release-keys|Nothing/TetrisEEA/Tetris:15/AP3A.240905.015.A2/2509251843:user/release-keys|Nothing/TetrisIND/Tetris:15/AP3A.240905.015.A2/2509251843:user/release-keys|Nothing/TetrisTUR/Tetris:15/AP3A.240905.015.A2/2509251843:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/d1a4c6895f2b59b0a0af0d7767676fa22ab853ca.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🖼️ Photo widget now fills the space when resized to 4×2.<br>\n💿 Fixed album cover and song info display errors in the Media Player and widget.<br>\n⚙️ Enhanced overall system stability and smoothness.<br>\n🛡️ Updated to September security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:53:38 UTC"
+    },
+    {
+      "title": "CMF Phone 1",
+      "version": "Nothing OS V3.2-250723-1800",
+      "codename": "Tetris",
+      "source_fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2506092111:user/release-keys",
+      "fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2507231800:user/release-keys|Nothing/TetrisEEA/Tetris:15/AP3A.240905.015.A2/2507231800:user/release-keys|Nothing/TetrisIND/Tetris:15/AP3A.240905.015.A2/2507231800:user/release-keys|Nothing/TetrisTUR/Tetris:15/AP3A.240905.015.A2/2507231800:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/37933617e6847e797acb24a1734fd17b1b43fd17.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Widgets</b><br>\n<br>\n📱 Shared widgets now support more sticker types.<br>\n⏳ Countdown widget is upgraded with a new Recurring option and additional shape choices.<br>\n🚶‍♂️ Pedometer and Screentime now support sharing.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Added default gallery selection for previewing photos in Camera settings.<br>\n📷 Enhanced stability of the Camera.<br>\n🔗 Resolved Bluetooth call issues in Telegram when connected to some watches and earbuds.<br>\n🔤 Fixed Inter font display issues in Instagram, Subito and other apps.<br>\n🛡️ Updated August security patch.<br>\n⚙️ Enhanced system stability and optimised system performance.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 17:53:36 UTC"
+    },
+    {
+      "title": "CMF Phone 1",
+      "version": "Nothing OS V3.2-250609-2111",
+      "codename": "Tetris",
+      "source_fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2504212015:user/release-keys",
+      "fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2506092111:user/release-keys|Nothing/TetrisEEA/Tetris:15/AP3A.240905.015.A2/2506092111:user/release-keys|Nothing/TetrisIND/Tetris:15/AP3A.240905.015.A2/2506092111:user/release-keys|Nothing/TetrisTUR/Tetris:15/AP3A.240905.015.A2/2506092111:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/9701916b6254b90a0e6353bb80fe719cff810f11.zip",
+      "changelog": "<h3>What's new in this update</h3>\n<b>New Features</b><br>\n🔐 Introducing Privacy space: Swipe right in the app drawer for quick and easy access to your secure zone.<br>\n🔑 You can now set a separate privacy password for both App Locker and Privacy space.<br>\n📶 Hotspot Manager: Easily manage devices connected to your hotspot.<br>\n<br>\n<b>General improvements and bug fixes</b><br>\n🎧 Fixed incorrect volume display for Bluetooth headphones in some cases.<br>\n📷 Fixed incorrect zoom bar display in the camera in some cases.<br>\n🛠️ Fixed accessibility issues in Launcher, Gallery and other apps.<br>\n🔓 Improved reliability of face and fingerprint unlocking.<br>\n🛡️ Updated to June security patch .<br>\n⚙️ Enhanced system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 17:53:34 UTC"
+    },
+    {
+      "title": "CMF Phone 1",
+      "version": "Nothing OS V3.0-250421-2015",
+      "codename": "Tetris",
+      "source_fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2502082015:user/release-keys",
+      "fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2504212015:user/release-keys|Nothing/TetrisEEA/Tetris:15/AP3A.240905.015.A2/2504212015:user/release-keys|Nothing/TetrisIND/Tetris:15/AP3A.240905.015.A2/2504212015:user/release-keys|Nothing/TetrisTUR/Tetris:15/AP3A.240905.015.A2/2504212015:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/a052b413979b4ef715023c39ab6b63d9e178bfa1.zip",
+      "changelog": "<h3>What's new in this update</h3>\n<b>New features and improvements</b><br>\n🖼️ Introducing Nothing Gallery. The perfect blend of simplicity and elegance.<br>\n👆 You can now long-press and swipe up in Recent Apps to quickly Clear All.<br>\n📳 Use the touch feedback toggle in Settings to disable the unlock vibration for the lock screen.<br>\n🖼️ Optimised design of pop-up view.<br>\n📶 Fixed the issue of delayed data network switching in extremely rare cases.<br>\n📲 Supports the transfer of lock screen widget data when transferring data to another phone.<br>\n📱 Fixed the issue of emergency dialing failure in extremely rare cases in certain areas.<br>\n🛡️ Updated to April security patch .<br>\n⚙️ Enhanced system stability.<br>\n<br>\n<b>Notes:</b><br>\nDuring the upgrade, the system will optimise in the background to enhance your user experience. The device may experience temporary overheating and increased power consumption, but will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 17:53:32 UTC"
+    },
+    {
+      "title": "CMF Phone 1",
+      "version": "Nothing OS V3.0-250208-2015",
+      "codename": "Tetris",
+      "source_fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2501112249:user/release-keys",
+      "fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2502082015:user/release-keys|Nothing/TetrisEEA/Tetris:15/AP3A.240905.015.A2/2502082015:user/release-keys|Nothing/TetrisIND/Tetris:15/AP3A.240905.015.A2/2502082015:user/release-keys|Nothing/TetrisTUR/Tetris:15/AP3A.240905.015.A2/2502082015:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/b7baa86871347adcf54b1b7d80aa6129e0755627.zip",
+      "changelog": "<h3>What's new in this update</h3>\n<b>New features</b><br>\n🔒 Added power-off password verification to prevent immediate power-off if your phone is lost. Path: Search 'Power off verify' in Settings. <br>\n<br>\n<b>General improvements & bug fixes</b><br>\n🖼️ Optimised design of pop-up view.<br>\n⚙️ Improved functionality of Settings.<br>\n🔒 Updated to February security patch.<br>\n📈 Enhanced system stability.<br>",
+      "extracted_at": "2026-09-06 17:53:29 UTC"
+    },
+    {
+      "title": "CMF Phone 1",
+      "version": "Nothing OS V3.0-250111-2249",
+      "codename": "Tetris",
+      "source_fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2412050050:user/release-keys",
+      "fingerprint": "Nothing/Tetris/Tetris:15/AP3A.240905.015.A2/2501112249:user/release-keys|Nothing/TetrisEEA/Tetris:15/AP3A.240905.015.A2/2501112249:user/release-keys|Nothing/TetrisIND/Tetris:15/AP3A.240905.015.A2/2501112249:user/release-keys|Nothing/TetrisTUR/Tetris:15/AP3A.240905.015.A2/2501112249:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/67feb668686ad7363ef39906168530af25c265b9.zip",
+      "changelog": "<h3>Nothing OS 3.0</h3>\nThis update transitions you to the official release of Nothing OS 3.0, powered by Android 15. Full of exciting new features and improvements to enhance your everyday experience. Here's what's in store: <br>\n<br>\n<b>Shared Widgets</b><br>\n🔮 Use widgets to link up with friends and family. See another person's widgets displayed on your home screen and interact with each other through reactions. A new way to stay connected. <br>\n<br>\nShared Widgets are currently only supported between Nothing devices. And only Photo Widgets (square) can be shared. We are rapidly developing support for other widgets, so stay tuned!<br>\n<br>\nNotes: As Shared Widgets are in beta, you might encounter some issues. We appreciate your patience as we work to enhance your experience.<br>\n<br>\n<b>Lock screen</b><br>\n🔒 Introduced new lock screen customisation page. Access by long-pressing the lock screen or via the Customisation page.<br>\n🕰️ Choose from a range of new Clock face styles.<br>\n🖼️ Expanded widget space, allowing you to place more widgets on your lock screen.<br>\n<br>\n<b>New app drawer style</b><br>\n🤖 Added AI-powered Smart Drawer to automatically categorise your apps into folders, keeping your app drawer organised and making apps easy to find.<br>\n📌 Now you can pin your favourite apps to the top of the app drawer for quick access to your favourite apps.<br>\n<br>\n<b>Enhanced pop-up view</b><br>\n📱 Drag the pop-up view to any position on the screen, for convenient multitasking.<br>\n📐 Easily resize the pop-up view by dragging the bottom corners.<br>\n📍 Pin the pop-up view on the screen edge, for speedy access.<br>\n🔔 Swipe down incoming notifications to enter the pop-up view. Allows you to quickly view information without leaving your current app. Enable via Settings > Special features > Pop-up view.<br>\n<br>\n<b>Elevated design</b><br>\n🧩 Redesigned Quick Settings, and an optimised editing experience. Allows you to effortlessly tailor your shortcuts to your preferences.<br>\n🖼️ Redesigned widget library. Choose your favourite Nothing Widgets or swipe left to browse third-party widgets.<br>\n🎨 Enhanced Settings with updated UI visuals. Network & Internet and Bluetooth options now display current connection.<br>\n👆 New Dot animation for fingerprint unlocking and charging.<br>\n<br>\n<b>Other improvements</b><br>\n🤖 Allow AI to learn your usage habits and prioritise your frequently used apps. Keeps them active for longer intelligently for a smoother and more efficient experience.<br>\n🔋 Improved the lock screen charging status display to help you easily know the charging speed at a glance.<br>\n🗃️ Added support for auto-archive function. Automatically frees up storage space without removing apps or data from your device.<br>\n🖥️ New partial screen sharing, so you can record just an app window rather than the entire screen.<br>\n🚀 Updated setup wizard to version 3.0 for a smoother introduction.<br>\n⬅️ Enabled predictive back animations for apps that have opted in.<br>\n<br>\n<b>Notes:</b><br>\nDuring the upgrade, the system will optimise in the background to enhance your user experience. The device may experience temporary overheating and increased power consumption, but will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 17:53:27 UTC"
+    }
+  ],
+  "Frogger": [
+    {
+      "title": "Nothing Phone (4a)",
+      "version": "Nothing OS B4.1-260808-1352",
+      "codename": "Frogger",
+      "source_fingerprint": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys",
+      "fingerprint": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2608081352:user/release-keys|Nothing/FroggerEEA/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2608081352:user/release-keys|Nothing/FroggerIND/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2608081352:user/release-keys|Nothing/FroggerJPN/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2608081352:user/release-keys|Nothing/FroggerTUR/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2608081352:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/a191c759b0c612f738df6c7e9cf853bd6f1dd589.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🎧 Essential Voice can now be triggered via the Ear (3) Super Mic while using the keyboard.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:57:35 UTC"
+    },
+    {
+      "title": "Nothing Phone (4a)",
+      "version": "Nothing OS B4.1-260630-1839",
+      "codename": "Frogger",
+      "source_fingerprint": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys",
+      "fingerprint": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys|Nothing/FroggerEEA/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys|Nothing/FroggerIND/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys|Nothing/FroggerJPN/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys|Nothing/FroggerTUR/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/d940f95eca4c66a6f6d1628b1d8d082692a6330f.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Essential Voice Enhancements</b><br>\n<br>\n🔡 Translation/transcription can now be triggered via double-clicking the Essential Key when using the keyboard. Set it up in Settings > Intelligence toolkit > Essential Voice > Customise Essential Key.<br>\n⌨️ Quick switch between translation and transcription is now available by long-pressing the icon on the keyboard.<br>\n🎙️ Optimised Essential Voice for a smoother performance.<br>\n<br>\n<b>Camera Enhancements</b><br>\n<br>\n📹 Lock Lens keeps your video framing steady by preventing automatic lens switching during recording. Enable in Camera settings > Lock Lens.<br>\n🏙️ Improved skin tone and colour accuracy for outdoor shots.<br>\n🎬 Better shooting stability for smoother capture.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🎚️ Refined the volume slider to allow seamless and more precise adjustment when dragging.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to July 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:57:31 UTC"
+    },
+    {
+      "title": "Nothing Phone (4a)",
+      "version": "Nothing OS B4.1-260402-1229",
+      "codename": "Frogger",
+      "source_fingerprint": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2603091830:user/release-keys",
+      "fingerprint": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys|Nothing/FroggerEEA/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys|Nothing/FroggerIND/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys|Nothing/FroggerJPN/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys|Nothing/FroggerTUR/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/2813b3b383982325f5c92e821cc2dfd1411b212c.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Camera Enhancements</b><br>\n<br>\n📹 Enhanced auto exposure stability for recording via the front camera.<br>\n🔭 Enhanced rear camera autofocus performance for better captures.<br>\n📷 Optimised HDR brightness consistency for rear camera portrait shots.<br>\n🏙️ Refined colour rendering for a more natural and vivid experience.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🫧 Notifications that are frequently interacted with may be suggested to be set as Essential Notification. <br>\n🔋 Refined the spacing of status bar icons for a more consistent and coordinated layout.<br>\n📳 Optimised haptic feedback in the Recorder app for a more tactile experience.<br>\n📱 Fixed some known issues for a smoother and more stable experience.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:57:27 UTC"
+    }
+  ],
+  "FroggerPro": [
+    {
+      "title": "Nothing Phone (4a) Pro",
+      "version": "Nothing OS B4.1-260723-1820",
+      "codename": "FroggerPro",
+      "source_fingerprint": "Nothing/FroggerPro/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2603231635:user/release-keys",
+      "fingerprint": "Nothing/FroggerPro/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys|Nothing/FroggerProEEA/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys|Nothing/FroggerProIND/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys|Nothing/FroggerProJPN/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys|Nothing/FroggerProTUR/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/5aaf064d069f5dbf08252fa6fa627f0b331ce880.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>Essential Voice Enhancements</b><br>\n<br>\n🔡 You can now customise whether a long-press or a double-click of the Essential Key triggers translation or transcription while typing. Set it up in Settings > Intelligence toolkit > Essential Voice > Customise Essential Key.<br>\n⌨️ Quick switch between translation and transcription is now available by long-pressing the icon on the keyboard.<br>\n<br>\n<b>Camera Enhancements</b><br>\n<br>\n📹 Lock Lens keeps your video framing steady by preventing automatic lens switching during recording. Enable in Camera settings > Lock Lens.<br>\n📷 Optimised camera memory usage for a smoother shooting experience.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🎚️ Refined the volume slider to allow seamless and more precise adjustment when dragging.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to July 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 17:58:44 UTC"
+    }
+  ],
+  "Spacewar": [
+    {
+      "title": "Nothing Phone (1)",
+      "version": "Nothing OS V3.2-20260618-1045",
+      "codename": "Spacewar",
+      "source_fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2604161140:user/release-keys",
+      "fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2606181045:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2606181045:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/ee806849b191862527abd847e12a5e2b301517c0.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to July 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 18:00:45 UTC"
+    },
+    {
+      "title": "Nothing Phone (1)",
+      "version": "Nothing OS V3.2-20260416-1140",
+      "codename": "Spacewar",
+      "source_fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2512191652:user/release-keys",
+      "fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2604161140:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2604161140:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/a2d280f245a1dd6ae0f16b50073c4cb09e1ef3fb.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 18:00:42 UTC"
+    },
+    {
+      "title": "Nothing Phone (1)",
+      "version": "Nothing OS V3.2-251219-1652",
+      "codename": "Spacewar",
+      "source_fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2508042110:user/release-keys",
+      "fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2512191652:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2512191652:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/9b2a2699b03c24f470c067ce936417a03c455e73.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to December security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+      "extracted_at": "2026-09-06 18:00:39 UTC"
+    },
+    {
+      "title": "Nothing Phone (1)",
+      "version": "Nothing OS V3.2-250804-2110",
+      "codename": "Spacewar",
+      "source_fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2504092129:user/release-keys",
+      "fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2508042110:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2508042110:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/d770e856077f531a79fcf97204f646527b713299.zip",
+      "changelog": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n📱 Widgets: Pedometer and Screentime now support sharing.<br>\n📷 Camera: Default gallery options for previewing photos in Camera app settings are updated.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔧 Fixed tiles display errors in Quick Settings.<br>\n🗃️ Resolved the issue of failing to open PDFs in Cloned apps.<br>\n📊 Optimised the display of VoNR icon in the status bar.<br>\n⛔ Fixed the issue of failing to block connected devices in Hotspot and tethering.<br>\n🔋 Optimised battery usage when connecting watches to the phone.<br>\n🔤 Fixed Inter font display issues in Instagram, Subito and other apps.<br>\n⚙️ Enhanced system stability and improved network connection.<br>\n🛡️ Updated to August security patch.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+      "extracted_at": "2026-09-06 18:00:35 UTC"
+    },
+    {
+      "title": "Nothing Phone (1)",
+      "version": "Nothing OS V3.0-250409-2129",
+      "codename": "Spacewar",
+      "source_fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2502181552:user/release-keys",
+      "fingerprint": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2504092129:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2504092129:user/release-keys",
+      "ota_url": "https://android.googleapis.com/packages/ota-api/package/f652a4b31c3fa223157e0b0caef93d2e9260c9b2.zip",
+      "changelog": "<h3>What's new in this update</h3>\n<b>Enhanced security & user experience</b><br>\n🔒 Introduced Power off verify. You can now enable a security check before your phone shuts down when locked. Go to Settings > Security and privacy > More security and privacy > Power off verify.<br>\n🖼️ Updated the design of title bar in the pop-up view, for a cleaner and more intuitive look.<br>\n📳 Fingerprint unlock vibration now follows the touch feedback setting for a more consistent experience. You can tweak it anytime in \"Settings > Sound and vibration > Vibration\".<br>\n🛡️ Updated to the latest April 2025 security patch for improved protection.<br>\n<br>\n<b>Bug fixes & stability improvements</b><br>\n📡 Enhanced stability for network and bluetooth connections, ensuring a more reliable experience.<br>\n📷 Resolved certain issues to improve camera performance.<br>\n🔧 Fixed several issues affecting overall system stability.<br>\n<br>\n<b>Notes:</b><br>\nDuring the upgrade, the system will optimise in the background to enhance your user experience. The device may experience temporary overheating and increased power consumption, but will quickly return to normal after the upgrade is complete.<br>",
+      "extracted_at": "2026-09-06 18:00:30 UTC"
+    }
+  ]
+}
